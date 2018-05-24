@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="160" it="0" lt="159" ct="100" ts="1527043742524" s="true" lb="登陆提取token" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="524" sby="388" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>获取token成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="432" it="0" lt="432" ct="0" ts="1527043742776" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="256" sby="1259" ng="1" na="1">
+  <assertionResult>
+    <name>结果校验</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="250" it="0" lt="250" ct="0" ts="1527043743777" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="256" sby="1259" ng="1" na="1">
+  <assertionResult>
+    <name>结果校验</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="261" it="0" lt="261" ct="0" ts="1527043744099" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="256" sby="1259" ng="1" na="1">
+  <assertionResult>
+    <name>结果校验</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="562" it="0" lt="562" ct="0" ts="1527043744489" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="256" sby="1272" ng="1" na="1">
+  <assertionResult>
+    <name>结果校验</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="238" it="0" lt="238" ct="5" ts="1527043745159" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="256" sby="1259" ng="1" na="1">
+  <assertionResult>
+    <name>结果校验</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="270" it="0" lt="270" ct="0" ts="1527043745500" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="256" sby="1259" ng="1" na="1">
+  <assertionResult>
+    <name>结果校验</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="241" it="0" lt="241" ct="0" ts="1527043745903" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="256" sby="1259" ng="1" na="1">
+  <assertionResult>
+    <name>结果校验</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="274" it="0" lt="274" ct="0" ts="1527043746247" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="256" sby="1267" ng="1" na="1">
+  <assertionResult>
+    <name>结果校验</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="455" it="0" lt="455" ct="0" ts="1527043746644" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="256" sby="1261" ng="1" na="1">
+  <assertionResult>
+    <name>结果校验</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="481" it="0" lt="481" ct="5" ts="1527043747335" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 1-1" dt="text" by="256" sby="1267" ng="1" na="1">
+  <assertionResult>
+    <name>结果校验</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+
+</testResults>
