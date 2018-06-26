@@ -288,7 +288,7 @@ else{
         </LoopController>
         <hashTree>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="获取运单数据" enabled="true">
-            <stringProp name="filename">bin\开单数据_成功.csv</stringProp>
+            <stringProp name="filename">..\resources\开单数据_成功.csv</stringProp>
             <stringProp name="fileEncoding">GB2312</stringProp>
             <stringProp name="variableNames"></stringProp>
             <boolProp name="ignoreFirstLine">true</boolProp>
@@ -400,7 +400,7 @@ if (!conn.isClosed()) {
         </LoopController>
         <hashTree>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="获取开单数据" enabled="true">
-            <stringProp name="filename">bin\开单数据_失败.csv</stringProp>
+            <stringProp name="filename">..\resources\开单数据_失败.csv</stringProp>
             <stringProp name="fileEncoding">GB2312</stringProp>
             <stringProp name="variableNames"></stringProp>
             <boolProp name="ignoreFirstLine">true</boolProp>
@@ -624,7 +624,7 @@ else{
           </LoopController>
           <hashTree>
             <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="获取运单数据" enabled="true">
-              <stringProp name="filename">bin\开单数据_不同账户类型开单.csv</stringProp>
+              <stringProp name="filename">..\resources\开单数据_不同账户类型开单.csv</stringProp>
               <stringProp name="fileEncoding">GB2312</stringProp>
               <stringProp name="variableNames"></stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
