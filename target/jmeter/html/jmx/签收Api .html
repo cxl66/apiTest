@@ -1,0 +1,615 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Load Test Results</title>
+<style type="text/css">
+				body {
+					font:normal 68% verdana,arial,helvetica;
+					color:#000000;
+				}
+				table tr td, table tr th {
+					font-size: 68%;
+				}
+				table.details tr th{
+				    color: #ffffff;
+					font-weight: bold;
+					text-align:center;
+					background:#2674a6;
+					white-space: nowrap;
+				}
+				table.details tr td{
+					background:#eeeee0;
+					white-space: nowrap;
+				}
+				h1 {
+					margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+				}
+				h2 {
+					margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+				}
+				h3 {
+					margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+				}
+				.Failure {
+					font-weight:bold; color:red;
+				}
+				
+	
+				img
+				{
+				  border-width: 0px;
+				}
+				
+				.expand_link
+				{
+				   position=absolute;
+				   right: 0px;
+				   width: 27px;
+				   top: 1px;
+				   height: 27px;
+				}
+				
+				.page_details
+				{
+				   display: none;
+				}
+                                
+                                .page_details_expanded
+                                {
+                                    display: block;
+                                    display/* hide this definition from  IE5/6 */: table-row;
+                                }
+
+
+			</style>
+<script language="JavaScript">
+                           function expand(details_id)
+			   {
+			      
+			      document.getElementById(details_id).className = "page_details_expanded";
+			   }
+			   
+			   function collapse(details_id)
+			   {
+			      
+			      document.getElementById(details_id).className = "page_details";
+			   }
+			   
+			   function change(details_id)
+			   {
+			      if(document.getElementById(details_id+"_image").src.match("expand"))
+			      {
+			         document.getElementById(details_id+"_image").src = "collapse.png";
+			         expand(details_id);
+			      }
+			      else
+			      {
+			         document.getElementById(details_id+"_image").src = "expand.png";
+			         collapse(details_id);
+			      } 
+                           }
+			</script>
+</head>
+<body>
+<h1>Load Test Results</h1>
+<table width="100%">
+<tr>
+<td align="left">Date report: date not defined</td><td align="right">Designed for use with <a href="http://jmeter.apache.org/">JMeter</a> and <a href="http://ant.apache.org">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th>
+</tr>
+<tr valign="top" class="Failure">
+<td align="center">37</td><td align="center">9</td><td align="center">75.68%</td><td align="center">248 ms</td><td align="center">NaN</td><td align="center">NaN</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="center">
+<h2>Pages</h2>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>URL</th><th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th><th></th>
+</tr>
+<tr valign="top" class="">
+<td>登陆提取token</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">209 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_1')"><img src="expand.png" alt="expand/collapse" id="page_details_1_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_1">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "登陆提取token"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>获取token 1-1</td><td align="center">1</td><td align="right">209</td><td align="right">524</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>设置全局变量</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">0 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_2')"><img src="expand.png" alt="expand/collapse" id="page_details_2_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_2">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "设置全局变量"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>获取token 1-1</td><td align="center">1</td><td align="right">0</td><td align="right">0</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>开单-自提/送货/外转</td><td align="center">12</td><td align="center">0</td><td align="right">100.00%</td><td align="right">324 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_3')"><img src="expand.png" alt="expand/collapse" id="page_details_3_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_3">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "开单-自提/送货/外转"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">342</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">2</td><td align="right">239</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">3</td><td align="right">442</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">4</td><td align="right">299</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">5</td><td align="right">299</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">6</td><td align="right">303</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">7</td><td align="right">280</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">8</td><td align="right">411</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">9</td><td align="right">299</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">10</td><td align="right">331</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">11</td><td align="right">372</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">12</td><td align="right">265</td><td align="right">256</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>获取可配载数据</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">541 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_4')"><img src="expand.png" alt="expand/collapse" id="page_details_4_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_4">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "获取可配载数据"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">541</td><td align="right">89193</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>配载发车</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">213 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_5')"><img src="expand.png" alt="expand/collapse" id="page_details_5_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_5">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "配载发车"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">213</td><td align="right">245</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>登陆切换机构</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">71 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_6')"><img src="expand.png" alt="expand/collapse" id="page_details_6_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_6">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "登陆切换机构"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">71</td><td align="right">524</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>到站token保存到全局变量</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">0 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_7')"><img src="expand.png" alt="expand/collapse" id="page_details_7_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_7">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "到站token保存到全局变量"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">0</td><td align="right">0</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E6%9F%A5%E8%AF%A2%E5%9C%A8%E9%80%94%E4%B8%AD%E7%9A%84%E6%89%B9%E6%AC%A1">查询在途中的批次</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">90 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_8')"><img src="expand.png" alt="expand/collapse" id="page_details_8_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_8">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "查询在途中的批次"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">90</td><td align="right">281</td><td align="center">false</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E7%A1%AE%E8%AE%A4%E5%88%B0%E8%BD%A6">确认到车</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">66 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_9')"><img src="expand.png" alt="expand/collapse" id="page_details_9_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_9">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "确认到车"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">66</td><td align="right">270</td><td align="center">false</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E8%8E%B7%E5%8F%96%E9%80%81%E8%B4%A7%E4%B8%8A%E9%97%A8%E6%95%B0%E6%8D%AE">获取送货上门数据</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">49 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_10')"><img src="expand.png" alt="expand/collapse" id="page_details_10_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_10">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "获取送货上门数据"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">49</td><td align="right">281</td><td align="center">false</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E9%80%81%E8%B4%A7%E4%B8%8A%E9%97%A8">送货上门</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">611 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_11')"><img src="expand.png" alt="expand/collapse" id="page_details_11_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_11">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "送货上门"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">611</td><td align="right">261</td><td align="center">false</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>获取外转数据</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">144 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_12')"><img src="expand.png" alt="expand/collapse" id="page_details_12_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_12">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "获取外转数据"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">144</td><td align="right">4719</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E5%A4%96%E8%BD%AC">外转</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">64 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_13')"><img src="expand.png" alt="expand/collapse" id="page_details_13_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_13">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "外转"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">64</td><td align="right">270</td><td align="center">false</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>将运单id存入全局变量</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_14')"><img src="expand.png" alt="expand/collapse" id="page_details_14_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_14">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "将运单id存入全局变量"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收数据-准备 2-1</td><td align="center">1</td><td align="right">1</td><td align="right">0</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>获取可自提数据</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">180 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_15')"><img src="expand.png" alt="expand/collapse" id="page_details_15_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_15">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "获取可自提数据"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">1</td><td align="right">180</td><td align="right">9277</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>自提签收</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">311 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_16')"><img src="expand.png" alt="expand/collapse" id="page_details_16_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_16">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "自提签收"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">1</td><td align="right">311</td><td align="right">305</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>获取可签收登记的数据</td><td align="center">4</td><td align="center">0</td><td align="right">100.00%</td><td align="right">468 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_17')"><img src="expand.png" alt="expand/collapse" id="page_details_17_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_17">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "获取可签收登记的数据"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">1</td><td align="right">360</td><td align="right">88993</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">2</td><td align="right">846</td><td align="right">88993</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">3</td><td align="right">376</td><td align="right">89023</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">4</td><td align="right">288</td><td align="right">89007</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E8%BF%90%E5%8D%95%E7%AD%BE%E6%94%B6">运单签收</a></td><td align="center">4</td><td align="center">2</td><td align="right">50.00%</td><td align="right">152 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_18')"><img src="expand.png" alt="expand/collapse" id="page_details_18_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_18">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "运单签收"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">1</td><td align="right">83</td><td align="right">285</td><td align="center">false</td>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">2</td><td align="right">172</td><td align="right">305</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">3</td><td align="right">117</td><td align="right">285</td><td align="center">false</td>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">4</td><td align="right">235</td><td align="right">305</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E9%80%81%E8%B4%A7%E8%BF%90%E5%8D%95%E7%AD%BE%E6%94%B6">送货运单签收</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">104 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_19')"><img src="expand.png" alt="expand/collapse" id="page_details_19_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_19">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "送货运单签收"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">1</td><td align="right">104</td><td align="right">285</td><td align="center">false</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E5%A4%96%E8%BD%AC%E8%BF%90%E5%8D%95%E7%AD%BE%E6%94%B6">外转运单签收</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">161 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_20')"><img src="expand.png" alt="expand/collapse" id="page_details_20_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_20">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "外转运单签收"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收api 3-1</td><td align="center">1</td><td align="right">161</td><td align="right">375</td><td align="center">false</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="center">
+<h2>Failure Detail</h2>
+<h3>查询在途中的批次<a name="%E6%9F%A5%E8%AF%A2%E5%9C%A8%E9%80%94%E4%B8%AD%E7%9A%84%E6%89%B9%E6%AC%A1"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>接口返回值错误</td>
+</tr>
+</table>
+<h3>确认到车<a name="%E7%A1%AE%E8%AE%A4%E5%88%B0%E8%BD%A6"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>接口返回值错误</td>
+</tr>
+</table>
+<h3>获取送货上门数据<a name="%E8%8E%B7%E5%8F%96%E9%80%81%E8%B4%A7%E4%B8%8A%E9%97%A8%E6%95%B0%E6%8D%AE"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>接口返回值错误</td>
+</tr>
+</table>
+<h3>送货上门<a name="%E9%80%81%E8%B4%A7%E4%B8%8A%E9%97%A8"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>接口返回值错误</td>
+</tr>
+</table>
+<h3>外转<a name="%E5%A4%96%E8%BD%AC"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>接口返回值错误</td>
+</tr>
+</table>
+<h3>运单签收<a name="%E8%BF%90%E5%8D%95%E7%AD%BE%E6%94%B6"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>签收写入数据库失败</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>签收写入数据库失败</td>
+</tr>
+</table>
+<h3>送货运单签收<a name="%E9%80%81%E8%B4%A7%E8%BF%90%E5%8D%95%E7%AD%BE%E6%94%B6"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>签收写入数据库失败</td>
+</tr>
+</table>
+<h3>外转运单签收<a name="%E5%A4%96%E8%BD%AC%E8%BF%90%E5%8D%95%E7%AD%BE%E6%94%B6"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>签收写入数据库失败</td>
+</tr>
+</table>
+</body>
+</html>

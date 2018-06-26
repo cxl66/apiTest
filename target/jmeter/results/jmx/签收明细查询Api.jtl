@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="282" it="0" lt="281" ct="198" ts="1529997065207" s="true" lb="登陆" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="524" sby="397" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1529997065557" s="true" lb="到站token保存到全局变量" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="312" it="0" lt="253" ct="0" ts="1529997065560" s="true" lb="按签收日期查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="548" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>签收时间正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="72" it="0" lt="72" ct="0" ts="1529997065984" s="false" lb="按开单日期查询--待如何准备测试数据，开单日期与签收日期不同覆盖" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="281" sby="601" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>无测试数据，请确认</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="106" it="0" lt="106" ct="0" ts="1529997066089" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="281" sby="546" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>无测试数据，请确认</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="154" it="0" lt="101" ct="0" ts="1529997066377" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="552" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1529997066587" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="571" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="211" it="0" lt="184" ct="0" ts="1529997066669" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="546" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="70" it="0" lt="70" ct="0" ts="1529997066907" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="565" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="141" it="0" lt="90" ct="0" ts="1529997067003" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="552" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1529997067190" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="571" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="139" it="0" lt="139" ct="66" ts="1529997067268" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="281" sby="544" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>无测试数据，请确认</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="159" it="0" lt="104" ct="0" ts="1529997067417" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="548" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="430" it="0" lt="430" ct="0" ts="1529997067601" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="567" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="155" it="0" lt="154" ct="0" ts="1529997068044" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="9119" sby="544" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="79" it="0" lt="78" ct="0" ts="1529997068221" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="563" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="199" it="0" lt="139" ct="0" ts="1529997068308" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="548" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="70" it="0" lt="70" ct="0" ts="1529997068519" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="567" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="146" it="0" lt="90" ct="0" ts="1529997068598" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="541" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="54" it="0" lt="54" ct="0" ts="1529997068758" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="560" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="126" it="0" lt="79" ct="0" ts="1529997068816" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="18007" sby="541" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1529997068955" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="560" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="106" it="0" lt="67" ct="0" ts="1529997069026" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="541" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1529997069159" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="560" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="127" it="0" lt="92" ct="0" ts="1529997069231" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="541" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="88" it="0" lt="88" ct="36" ts="1529997069375" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="560" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="93" it="0" lt="92" ct="0" ts="1529997069470" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="13590" sby="547" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="72" it="0" lt="72" ct="0" ts="1529997069590" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="566" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>统计结果正确</failureMessage>
+  </assertionResult>
+</httpSample>
+
+</testResults>

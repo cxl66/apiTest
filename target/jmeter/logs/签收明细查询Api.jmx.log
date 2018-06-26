@@ -1,0 +1,311 @@
+2018/06/26 15:11:04 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: Loading system properties from: H:\works\api_test\target\jmeter\bin\system.properties 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: java.version=1.8.0_121 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: os.name=Windows 7 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: os.arch=amd64 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: os.version=6.1 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: file.encoding=GBK 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: Max memory     =514850816 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: Available Processors =4 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: JMeterHome=H:\works\api_test\target\jmeter 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: user.dir  =H:\works\api_test\target\jmeter\bin 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: PWD       =H:\works\api_test\target\jmeter\bin 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: IP: 192.168.101.150 Name: admin-PC FullName: admin-PC 
+2018/06/26 15:11:04 INFO  - jmeter.services.FileServer: Default base='H:\works\api_test\target\jmeter\bin' 
+2018/06/26 15:11:04 INFO  - jmeter.services.FileServer: Set new base='H:\works\api_test\target\jmeter\testFiles\jmx' 
+2018/06/26 15:11:04 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2018/06/26 15:11:04 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2018/06/26 15:11:04 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.2 
+2018/06/26 15:11:04 WARN  - jmeter.save.SaveService: Bad _version - expected 3.1, found 3.2. 
+2018/06/26 15:11:04 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2018/06/26 15:11:04 INFO  - jmeter.save.SaveService: Loading file: H:\works\api_test\target\jmeter\testFiles\jmx\签收明细查询Api.jmx 
+2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2018/06/26 15:11:04 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2018/06/26 15:11:04 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/06/26 15:11:04 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/06/26 15:11:04 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/06/26 15:11:04 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2018/06/26 15:11:04 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2018/06/26 15:11:04 INFO  - jmeter.functions.StringFromFile: setParameters(H:\项目\接口\apiTest\jmx\服务器地址.txt,,,) 
+2018/06/26 15:11:04 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\maven3_repo\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar to classpath 
+2018/06/26 15:11:04 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\geronimo-jms_1.1_spec-1.1.1.jar to classpath 
+2018/06/26 15:11:04 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\json.jar to classpath 
+2018/06/26 15:11:05 INFO  - jmeter.JMeter: 正在运行的测试 (1529997065023) 
+2018/06/26 15:11:05 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 签收明细查询api 
+2018/06/26 15:11:05 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 签收明细查询api. 
+2018/06/26 15:11:05 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/06/26 15:11:05 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/06/26 15:11:05 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/06/26 15:11:05 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/06/26 15:11:05 INFO  - jmeter.threads.JMeterThread: Thread started: 签收明细查询api 1-1 
+2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 1 End = -2 
+2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:05 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = admin-PC 
+2018/06/26 15:11:05 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2018/06/26 15:11:05 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2018/06/26 15:11:05 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2018/06/26 15:11:05 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2018/06/26 15:11:05 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2018/06/26 15:11:05 INFO  - jmeter.reporters.Summariser: summary +      1 in 00:00:01 =    1.9/s Avg:   282 Min:   282 Max:   282 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 2 End = -2 
+2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
+2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: ~~~~获取到的签收时间~Tue Jun 26 15:11:02 CST 2018|查询开始时间：Tue Jun 26 00:00:00 CST 2018|查询结束时间：Tue Jun 26 23:59:59 CST 2018 
+2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: ~~~~获取到的签收时间~Tue Jun 26 15:10:59 CST 2018|查询开始时间：Tue Jun 26 00:00:00 CST 2018|查询结束时间：Tue Jun 26 23:59:59 CST 2018 
+2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: ~~~~获取到的签收时间~Tue Jun 26 15:10:56 CST 2018|查询开始时间：Tue Jun 26 00:00:00 CST 2018|查询结束时间：Tue Jun 26 23:59:59 CST 2018 
+2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: ~~~~获取到的签收时间~Tue Jun 26 15:10:56 CST 2018|查询开始时间：Tue Jun 26 00:00:00 CST 2018|查询结束时间：Tue Jun 26 23:59:59 CST 2018 
+2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 3 End = -2 
+2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它0 
+2018/06/26 15:11:06 INFO  - jmeter.services.FileServer: Stored: ..\resources\签收明细查询用例.csv Alias: ..\resources\签收明细查询用例.csv@6320204 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 4 End = -2 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它0 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 5 End = -2 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 6 End = -2 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 7 End = -2 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 8 End = -2 
+2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 9 End = -2 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 10 End = -2 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 11 End = -2 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它0 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 12 End = -2 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 13 End = -2 
+2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 14 End = -2 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~26 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 15 End = -2 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~26~~~~期望结果~~~~26 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 16 End = -2 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 17 End = -2 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 18 End = -2 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 19 End = -2 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 20 End = -2 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 21 End = -2 
+2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 22 End = -2 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 23 End = -2 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 24 End = -2 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 25 End = -2 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 26 End = -2 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它3 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~39 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
+2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 27 End = -2 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~39~~~~期望结果~~~~39 
+2018/06/26 15:11:09 INFO  - jmeter.threads.JMeterThread: Thread is done: 签收明细查询api 1-1 
+2018/06/26 15:11:09 INFO  - jmeter.threads.JMeterThread: Thread finished: 签收明细查询api 1-1 
+2018/06/26 15:11:09 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/06/26 15:11:09 INFO  - jmeter.services.FileServer: Close: ..\resources\签收明细查询用例.csv@6320204 
+2018/06/26 15:11:09 INFO  - jmeter.reporters.Summariser: summary +     27 in 00:00:04 =    6.6/s Avg:   124 Min:     1 Max:   430 Err:     3 (11.11%) Active: 0 Started: 1 Finished: 1 
+2018/06/26 15:11:09 INFO  - jmeter.reporters.Summariser: summary =     28 in 00:00:05 =    6.0/s Avg:   130 Min:     1 Max:   430 Err:     3 (10.71%) 
+2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: StandardJMeterEngine closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 

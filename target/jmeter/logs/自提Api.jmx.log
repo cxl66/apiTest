@@ -1,0 +1,77 @@
+2018/06/26 15:11:10 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: Loading system properties from: H:\works\api_test\target\jmeter\bin\system.properties 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: java.version=1.8.0_121 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: os.name=Windows 7 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: os.arch=amd64 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: os.version=6.1 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: file.encoding=GBK 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: Max memory     =514850816 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: Available Processors =4 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: JMeterHome=H:\works\api_test\target\jmeter 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: user.dir  =H:\works\api_test\target\jmeter\bin 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: PWD       =H:\works\api_test\target\jmeter\bin 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: IP: 192.168.101.150 Name: admin-PC FullName: admin-PC 
+2018/06/26 15:11:10 INFO  - jmeter.services.FileServer: Default base='H:\works\api_test\target\jmeter\bin' 
+2018/06/26 15:11:10 INFO  - jmeter.services.FileServer: Set new base='H:\works\api_test\target\jmeter\testFiles\jmx' 
+2018/06/26 15:11:10 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2018/06/26 15:11:10 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2018/06/26 15:11:10 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.2 
+2018/06/26 15:11:10 WARN  - jmeter.save.SaveService: Bad _version - expected 3.1, found 3.2. 
+2018/06/26 15:11:10 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2018/06/26 15:11:10 INFO  - jmeter.save.SaveService: Loading file: H:\works\api_test\target\jmeter\testFiles\jmx\自提Api.jmx 
+2018/06/26 15:11:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 15:11:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 15:11:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 15:11:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 15:11:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2018/06/26 15:11:10 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2018/06/26 15:11:10 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/06/26 15:11:10 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/06/26 15:11:10 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/06/26 15:11:10 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2018/06/26 15:11:10 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2018/06/26 15:11:10 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\maven3_repo\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar to classpath 
+2018/06/26 15:11:10 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\geronimo-jms_1.1_spec-1.1.1.jar to classpath 
+2018/06/26 15:11:10 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\fastjson-1.2.44.jar to classpath 
+2018/06/26 15:11:10 INFO  - jmeter.JMeter: 正在运行的测试 (1529997070972) 
+2018/06/26 15:11:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 获取token 
+2018/06/26 15:11:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 获取token. 
+2018/06/26 15:11:11 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/06/26 15:11:11 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/06/26 15:11:11 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/06/26 15:11:11 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 获取token to finish before starting next group 
+2018/06/26 15:11:11 INFO  - jmeter.threads.JMeterThread: Thread started: 获取token 1-1 
+2018/06/26 15:11:11 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = admin-PC 
+2018/06/26 15:11:11 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2018/06/26 15:11:11 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2018/06/26 15:11:11 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2018/06/26 15:11:11 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2018/06/26 15:11:11 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2018/06/26 15:11:11 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~~~~~获取token~~~~~~~~~~：ipthmjubofwsiaheseaxdyympwirjzydpivukavaenbelhrazutrlfbkewkpwdlz 
+2018/06/26 15:11:11 INFO  - jmeter.threads.JMeterThread: Thread is done: 获取token 1-1 
+2018/06/26 15:11:11 INFO  - jmeter.threads.JMeterThread: Thread finished: 获取token 1-1 
+2018/06/26 15:11:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : 签收数据-准备 
+2018/06/26 15:11:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 签收数据-准备. 
+2018/06/26 15:11:11 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/06/26 15:11:11 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/06/26 15:11:11 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2018/06/26 15:11:11 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/06/26 15:11:11 INFO  - jmeter.threads.JMeterThread: Thread started: 签收数据-准备 2-1 
+2018/06/26 15:11:11 INFO  - jmeter.services.FileServer: Stored: ..\resources\签收_开单数据.csv 
+2018/06/26 15:11:11 INFO  - jmeter.util.BeanShellTestElement: 获取运单id： 
+2018/06/26 15:11:11 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~~~~~~~~~~ 
+2018/06/26 15:11:11 INFO  - jmeter.util.BeanShellTestElement: 获取运单id： 
+2018/06/26 15:11:11 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~~~~~~~~~~ 
+2018/06/26 15:11:12 INFO  - jmeter.util.BeanShellTestElement: 获取运单id： 
+2018/06/26 15:11:12 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~~~~~~~~~~ 
+2018/06/26 15:11:12 INFO  - jmeter.threads.JMeterThread: Thread is done: 签收数据-准备 2-1 
+2018/06/26 15:11:12 INFO  - jmeter.threads.JMeterThread: Thread finished: 签收数据-准备 2-1 
+2018/06/26 15:11:12 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/06/26 15:11:12 INFO  - jmeter.services.FileServer: Close: ..\resources\签收_开单数据.csv 
+2018/06/26 15:11:12 INFO  - jmeter.reporters.Summariser: summary =      5 in 00:00:01 =    4.8/s Avg:   138 Min:     0 Max:   350 Err:     3 (60.00%) 

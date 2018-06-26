@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Load Test Results</title>
+<style type="text/css">
+				body {
+					font:normal 68% verdana,arial,helvetica;
+					color:#000000;
+				}
+				table tr td, table tr th {
+					font-size: 68%;
+				}
+				table.details tr th{
+				    color: #ffffff;
+					font-weight: bold;
+					text-align:center;
+					background:#2674a6;
+					white-space: nowrap;
+				}
+				table.details tr td{
+					background:#eeeee0;
+					white-space: nowrap;
+				}
+				h1 {
+					margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+				}
+				h2 {
+					margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+				}
+				h3 {
+					margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+				}
+				.Failure {
+					font-weight:bold; color:red;
+				}
+				
+	
+				img
+				{
+				  border-width: 0px;
+				}
+				
+				.expand_link
+				{
+				   position=absolute;
+				   right: 0px;
+				   width: 27px;
+				   top: 1px;
+				   height: 27px;
+				}
+				
+				.page_details
+				{
+				   display: none;
+				}
+                                
+                                .page_details_expanded
+                                {
+                                    display: block;
+                                    display/* hide this definition from  IE5/6 */: table-row;
+                                }
+
+
+			</style>
+<script language="JavaScript">
+                           function expand(details_id)
+			   {
+			      
+			      document.getElementById(details_id).className = "page_details_expanded";
+			   }
+			   
+			   function collapse(details_id)
+			   {
+			      
+			      document.getElementById(details_id).className = "page_details";
+			   }
+			   
+			   function change(details_id)
+			   {
+			      if(document.getElementById(details_id+"_image").src.match("expand"))
+			      {
+			         document.getElementById(details_id+"_image").src = "collapse.png";
+			         expand(details_id);
+			      }
+			      else
+			      {
+			         document.getElementById(details_id+"_image").src = "expand.png";
+			         collapse(details_id);
+			      } 
+                           }
+			</script>
+</head>
+<body>
+<h1>Load Test Results</h1>
+<table width="100%">
+<tr>
+<td align="left">Date report: date not defined</td><td align="right">Designed for use with <a href="http://jmeter.apache.org/">JMeter</a> and <a href="http://ant.apache.org">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th>
+</tr>
+<tr valign="top" class="Failure">
+<td align="center">28</td><td align="center">3</td><td align="center">89.29%</td><td align="center">131 ms</td><td align="center">NaN</td><td align="center">NaN</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="center">
+<h2>Pages</h2>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>URL</th><th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th><th></th>
+</tr>
+<tr valign="top" class="">
+<td>登陆</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">282 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_1')"><img src="expand.png" alt="expand/collapse" id="page_details_1_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_1">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "登陆"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">282</td><td align="right">524</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>到站token保存到全局变量</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_2')"><img src="expand.png" alt="expand/collapse" id="page_details_2_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_2">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "到站token保存到全局变量"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">1</td><td align="right">0</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>按签收日期查询</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">312 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_3')"><img src="expand.png" alt="expand/collapse" id="page_details_3_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_3">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "按签收日期查询"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">312</td><td align="right">17999</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E6%8C%89%E5%BC%80%E5%8D%95%E6%97%A5%E6%9C%9F%E6%9F%A5%E8%AF%A2--%E5%BE%85%E5%A6%82%E4%BD%95%E5%87%86%E5%A4%87%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%BC%80%E5%8D%95%E6%97%A5%E6%9C%9F%E4%B8%8E%E7%AD%BE%E6%94%B6%E6%97%A5%E6%9C%9F%E4%B8%8D%E5%90%8C%E8%A6%86%E7%9B%96">按开单日期查询--待如何准备测试数据，开单日期与签收日期不同覆盖</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">72 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_4')"><img src="expand.png" alt="expand/collapse" id="page_details_4_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_4">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "按开单日期查询--待如何准备测试数据，开单日期与签收日期不同覆盖"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">72</td><td align="right">281</td><td align="center">false</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E6%8C%89%E5%85%B6%E4%BB%96%E7%AD%9B%E9%80%89%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2">按其他筛选条件查询</a></td><td align="center">13</td><td align="center">2</td><td align="right">84.62%</td><td align="right">143 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_5')"><img src="expand.png" alt="expand/collapse" id="page_details_5_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_5">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "按其他筛选条件查询"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">106</td><td align="right">281</td><td align="center">false</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">2</td><td align="right">154</td><td align="right">17999</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">3</td><td align="right">211</td><td align="right">17999</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">4</td><td align="right">141</td><td align="right">17999</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">5</td><td align="right">139</td><td align="right">281</td><td align="center">false</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">6</td><td align="right">159</td><td align="right">17999</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">7</td><td align="right">155</td><td align="right">9119</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">8</td><td align="right">199</td><td align="right">17999</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">9</td><td align="right">146</td><td align="right">17999</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">10</td><td align="right">126</td><td align="right">18007</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">11</td><td align="right">106</td><td align="right">17999</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">12</td><td align="right">127</td><td align="right">17999</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">13</td><td align="right">93</td><td align="right">13590</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>合计接口校验</td><td align="center">11</td><td align="center">0</td><td align="right">100.00%</td><td align="right">102 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_6')"><img src="expand.png" alt="expand/collapse" id="page_details_6_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_6">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "合计接口校验"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">68</td><td align="right">831</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">2</td><td align="right">70</td><td align="right">831</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">3</td><td align="right">65</td><td align="right">831</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">4</td><td align="right">430</td><td align="right">831</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">5</td><td align="right">79</td><td align="right">831</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">6</td><td align="right">70</td><td align="right">831</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">7</td><td align="right">54</td><td align="right">831</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">8</td><td align="right">68</td><td align="right">831</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">9</td><td align="right">62</td><td align="right">831</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">10</td><td align="right">88</td><td align="right">831</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收明细查询api 1-1</td><td align="center">11</td><td align="right">72</td><td align="right">831</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="center">
+<h2>Failure Detail</h2>
+<h3>按开单日期查询--待如何准备测试数据，开单日期与签收日期不同覆盖<a name="%E6%8C%89%E5%BC%80%E5%8D%95%E6%97%A5%E6%9C%9F%E6%9F%A5%E8%AF%A2--%E5%BE%85%E5%A6%82%E4%BD%95%E5%87%86%E5%A4%87%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%BC%80%E5%8D%95%E6%97%A5%E6%9C%9F%E4%B8%8E%E7%AD%BE%E6%94%B6%E6%97%A5%E6%9C%9F%E4%B8%8D%E5%90%8C%E8%A6%86%E7%9B%96"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>无测试数据，请确认</td>
+</tr>
+</table>
+<h3>按其他筛选条件查询<a name="%E6%8C%89%E5%85%B6%E4%BB%96%E7%AD%9B%E9%80%89%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>无测试数据，请确认</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>无测试数据，请确认</td>
+</tr>
+</table>
+</body>
+</html>
