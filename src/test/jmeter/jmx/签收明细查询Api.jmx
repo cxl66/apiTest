@@ -2835,7 +2835,7 @@ catch (Throwable ex) {
             <stringProp name="filename"></stringProp>
           </ResultCollector>
           <hashTree/>
-          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="若查询有结果则校验合计项是否正确" enabled="true">
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="若查询有结果则校验合计项是否正确" enabled="false">
             <stringProp name="IfController.condition">${__jexl3(${getDataNum}!=0,)}</stringProp>
             <boolProp name="IfController.evaluateAll">false</boolProp>
           </IfController>
