@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="350" it="0" lt="349" ct="211" ts="1529997071102" s="true" lb="登陆提取token" rc="200" rm="OK" tn="获取token 1-1" dt="text" by="582" sby="444" ng="1" na="1">
+<httpSample t="154" it="0" lt="153" ct="69" ts="1530008866750" s="true" lb="登陆提取token" rc="200" rm="OK" tn="获取token 1-1" dt="text" by="524" sby="390" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -8,14 +8,72 @@
     <failureMessage>获取token成功</failureMessage>
   </assertionResult>
 </httpSample>
-<sample t="0" it="0" lt="0" ct="0" ts="1529997071525" s="true" lb="设置全局变量" rc="200" rm="OK" tn="获取token 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="149" it="0" lt="149" ct="93" ts="1529997071629" s="false" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="273" sby="1253" ng="1" na="1">
+<sample t="0" it="0" lt="0" ct="0" ts="1530008866981" s="true" lb="设置全局变量" rc="200" rm="OK" tn="获取token 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="300" it="0" lt="299" ct="14" ts="1530008867151" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="256" sby="1253" ng="1" na="1">
   <assertionResult>
     <name>校验开单是否成功</name>
-    <failure>true</failure>
+    <failure>false</failure>
     <error>false</error>
-    <failureMessage>接口返回值错误</failureMessage>
+    <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
+</httpSample>
+<httpSample t="301" it="0" lt="301" ct="0" ts="1530008867461" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="256" sby="1253" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="300" it="0" lt="300" ct="0" ts="1530008867769" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="256" sby="1265" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="312" it="0" lt="312" ct="0" ts="1530008868076" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="256" sby="1265" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="244" it="0" lt="244" ct="0" ts="1530008868397" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="256" sby="1266" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="345" it="0" lt="345" ct="0" ts="1530008868647" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="256" sby="1266" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="126" it="0" lt="81" ct="0" ts="1530008868999" s="true" lb="获取可配载数据" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="89182" sby="413" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="222" it="0" lt="221" ct="113" ts="1530008869220" s="true" lb="配载发车" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="245" sby="504" ng="1" na="1">
+  <assertionResult>
+    <name>校验配载是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="0" ts="1530008869448" s="true" lb="登陆切换机构" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="524" sby="397" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -23,32 +81,150 @@
     <failureMessage></failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="74" it="0" lt="74" ct="0" ts="1529997071796" s="false" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="273" sby="1253" ng="1" na="1">
-  <assertionResult>
-    <name>校验开单是否成功</name>
-    <failure>true</failure>
-    <error>false</error>
-    <failureMessage>接口返回值错误</failureMessage>
-  </assertionResult>
+<sample t="1" it="0" lt="0" ct="0" ts="1530008869489" s="true" lb="到站token保存到全局变量" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="68" it="0" lt="68" ct="0" ts="1530008869491" s="true" lb="查询在途中的批次" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="4032" sby="454" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
     <error>false</error>
-    <failureMessage></failureMessage>
+    <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="119" it="0" lt="118" ct="0" ts="1529997071880" s="false" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="273" sby="1265" ng="1" na="1">
+<httpSample t="163" it="0" lt="163" ct="0" ts="1530008869566" s="true" lb="确认到车" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="245" sby="334" ng="1" na="1">
   <assertionResult>
-    <name>校验开单是否成功</name>
-    <failure>true</failure>
-    <error>false</error>
-    <failureMessage>接口返回值错误</failureMessage>
-  </assertionResult>
-  <assertionResult>
-    <name>BeanShell断言</name>
+    <name>校验配载是否成功</name>
     <failure>false</failure>
     <error>false</error>
-    <failureMessage></failureMessage>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="43" it="0" lt="43" ct="0" ts="1530008869734" s="true" lb="获取送货上门数据" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="13611" sby="419" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="226" it="0" lt="226" ct="0" ts="1530008869795" s="true" lb="送货上门" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="245" sby="542" ng="1" na="1">
+  <assertionResult>
+    <name>校验自提签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="103" it="0" lt="55" ct="0" ts="1530008870029" s="true" lb="获取外转数据" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="49108" sby="409" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="282" it="0" lt="281" ct="0" ts="1530008870143" s="true" lb="外转" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="245" sby="867" ng="1" na="1">
+  <assertionResult>
+    <name>校验外转是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1530008870433" s="true" lb="将运单id存入全局变量" rc="200" rm="OK" tn="签收数据-准备 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="101" it="0" lt="101" ct="26" ts="1530008872507" s="true" lb="获取可自提数据" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="13761" sby="431" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="173" it="0" lt="172" ct="16" ts="1530008874618" s="true" lb="自提签收" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="305" sby="483" ng="1" na="1">
+  <assertionResult>
+    <name>校验自提签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>签收写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="196" it="0" lt="99" ct="20" ts="1530008879175" s="true" lb="获取可签收登记的数据" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="44736" sby="430" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>有可签收运单</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="202" it="0" lt="202" ct="17" ts="1530008883382" s="true" lb="运单签收" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="331" sby="470" ng="1" na="1">
+  <assertionResult>
+    <name>校验外转签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>签收写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="99" it="0" lt="87" ct="17" ts="1530008887804" s="true" lb="获取可签收登记的数据" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="40285" sby="430" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>有可签收运单</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="224" it="0" lt="224" ct="20" ts="1530008891912" s="true" lb="运单签收" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="331" sby="470" ng="1" na="1">
+  <assertionResult>
+    <name>校验外转签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>签收写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="104" it="0" lt="89" ct="28" ts="1530008896286" s="true" lb="获取可签收登记的数据" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="35850" sby="430" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>有可签收运单</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="154" it="0" lt="154" ct="21" ts="1530008900401" s="true" lb="运单签收" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="331" sby="470" ng="1" na="1">
+  <assertionResult>
+    <name>校验外转签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>签收写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="99" it="0" lt="88" ct="13" ts="1530008904642" s="true" lb="获取可签收登记的数据" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="31407" sby="430" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>有可签收运单</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="275" it="0" lt="275" ct="26" ts="1530008908749" s="true" lb="运单签收" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="331" sby="470" ng="1" na="1">
+  <assertionResult>
+    <name>校验外转签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>签收写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="70" it="0" lt="70" ct="21" ts="1530008911139" s="true" lb="外转运单签收" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="396" sby="465" ng="1" na="1">
+  <assertionResult>
+    <name>校验外转签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>签收写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="19" ts="1530008913785" s="true" lb="送货运单签收" rc="200" rm="OK" tn="签收api 3-1" dt="text" by="396" sby="465" ng="1" na="1">
+  <assertionResult>
+    <name>校验外转签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>签收写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
 

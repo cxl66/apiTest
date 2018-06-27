@@ -1,311 +1,1160 @@
-2018/06/26 15:11:04 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: Loading system properties from: H:\works\api_test\target\jmeter\bin\system.properties 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: Version 3.1 r1770033 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: java.version=1.8.0_121 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: os.name=Windows 7 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: os.arch=amd64 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: os.version=6.1 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: file.encoding=GBK 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: Max memory     =514850816 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: Available Processors =4 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: JMeterHome=H:\works\api_test\target\jmeter 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: user.dir  =H:\works\api_test\target\jmeter\bin 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: PWD       =H:\works\api_test\target\jmeter\bin 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: IP: 192.168.101.150 Name: admin-PC FullName: admin-PC 
-2018/06/26 15:11:04 INFO  - jmeter.services.FileServer: Default base='H:\works\api_test\target\jmeter\bin' 
-2018/06/26 15:11:04 INFO  - jmeter.services.FileServer: Set new base='H:\works\api_test\target\jmeter\testFiles\jmx' 
-2018/06/26 15:11:04 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2018/06/26 15:11:04 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2018/06/26 15:11:04 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.2 
-2018/06/26 15:11:04 WARN  - jmeter.save.SaveService: Bad _version - expected 3.1, found 3.2. 
-2018/06/26 15:11:04 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2018/06/26 15:11:04 INFO  - jmeter.save.SaveService: Loading file: H:\works\api_test\target\jmeter\testFiles\jmx\签收明细查询Api.jmx 
-2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2018/06/26 15:11:04 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
-2018/06/26 15:11:04 INFO  - jmeter.JMeter: Creating summariser <summary> 
-2018/06/26 15:11:04 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2018/06/26 15:11:04 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2018/06/26 15:11:04 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2018/06/26 15:11:04 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2018/06/26 15:11:04 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2018/06/26 15:11:04 INFO  - jmeter.functions.StringFromFile: setParameters(H:\项目\接口\apiTest\jmx\服务器地址.txt,,,) 
-2018/06/26 15:11:04 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\maven3_repo\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar to classpath 
-2018/06/26 15:11:04 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\geronimo-jms_1.1_spec-1.1.1.jar to classpath 
-2018/06/26 15:11:04 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\json.jar to classpath 
-2018/06/26 15:11:05 INFO  - jmeter.JMeter: 正在运行的测试 (1529997065023) 
-2018/06/26 15:11:05 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 签收明细查询api 
-2018/06/26 15:11:05 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 签收明细查询api. 
-2018/06/26 15:11:05 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2018/06/26 15:11:05 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2018/06/26 15:11:05 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2018/06/26 15:11:05 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2018/06/26 15:11:05 INFO  - jmeter.threads.JMeterThread: Thread started: 签收明细查询api 1-1 
-2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 1 End = -2 
-2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:05 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = admin-PC 
-2018/06/26 15:11:05 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
-2018/06/26 15:11:05 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2018/06/26 15:11:05 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2018/06/26 15:11:05 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2018/06/26 15:11:05 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2018/06/26 15:11:05 INFO  - jmeter.reporters.Summariser: summary +      1 in 00:00:01 =    1.9/s Avg:   282 Min:   282 Max:   282 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
-2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 2 End = -2 
-2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
-2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: ~~~~获取到的签收时间~Tue Jun 26 15:11:02 CST 2018|查询开始时间：Tue Jun 26 00:00:00 CST 2018|查询结束时间：Tue Jun 26 23:59:59 CST 2018 
-2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: ~~~~获取到的签收时间~Tue Jun 26 15:10:59 CST 2018|查询开始时间：Tue Jun 26 00:00:00 CST 2018|查询结束时间：Tue Jun 26 23:59:59 CST 2018 
-2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: ~~~~获取到的签收时间~Tue Jun 26 15:10:56 CST 2018|查询开始时间：Tue Jun 26 00:00:00 CST 2018|查询结束时间：Tue Jun 26 23:59:59 CST 2018 
-2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:05 INFO  - jmeter.util.BeanShellTestElement: ~~~~获取到的签收时间~Tue Jun 26 15:10:56 CST 2018|查询开始时间：Tue Jun 26 00:00:00 CST 2018|查询结束时间：Tue Jun 26 23:59:59 CST 2018 
-2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:05 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 3 End = -2 
-2018/06/26 15:11:05 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它0 
-2018/06/26 15:11:06 INFO  - jmeter.services.FileServer: Stored: ..\resources\签收明细查询用例.csv Alias: ..\resources\签收明细查询用例.csv@6320204 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 4 End = -2 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它0 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 5 End = -2 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 6 End = -2 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 7 End = -2 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:06 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:06 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 8 End = -2 
-2018/06/26 15:11:06 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 9 End = -2 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 10 End = -2 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 11 End = -2 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它0 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 12 End = -2 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:07 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:07 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 13 End = -2 
-2018/06/26 15:11:07 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 14 End = -2 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~26 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 15 End = -2 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~26~~~~期望结果~~~~26 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 16 End = -2 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 17 End = -2 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 18 End = -2 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 19 End = -2 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 20 End = -2 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:08 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:08 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 21 End = -2 
-2018/06/26 15:11:08 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 22 End = -2 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 23 End = -2 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 24 End = -2 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它4 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~52 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 25 End = -2 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~52~~~~期望结果~~~~52 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 26 End = -2 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 再试试，再接再厉想办法搞定它3 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement: 接口返回的运单状态值2 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~~~~~~~~~~~相加的结果是多少~~~~~~~~~~~~~~~~~~39 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 EOF on  file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as Start Number sequence 
-2018/06/26 15:11:09 WARN  - jmeter.functions.StringFromFile: Exception parsing  as int, value will not be considered as End Number sequence 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 Start = -2 Current = 27 End = -2 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: 签收明细查询api 1-1 opening file H:\项目\接口\apiTest\jmx\服务器地址.txt 
-2018/06/26 15:11:09 INFO  - jmeter.util.BeanShellTestElement:  ~~~~~获取到的结果~~39~~~~期望结果~~~~39 
-2018/06/26 15:11:09 INFO  - jmeter.threads.JMeterThread: Thread is done: 签收明细查询api 1-1 
-2018/06/26 15:11:09 INFO  - jmeter.threads.JMeterThread: Thread finished: 签收明细查询api 1-1 
-2018/06/26 15:11:09 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2018/06/26 15:11:09 INFO  - jmeter.services.FileServer: Close: ..\resources\签收明细查询用例.csv@6320204 
-2018/06/26 15:11:09 INFO  - jmeter.reporters.Summariser: summary +     27 in 00:00:04 =    6.6/s Avg:   124 Min:     1 Max:   430 Err:     3 (11.11%) Active: 0 Started: 1 Finished: 1 
-2018/06/26 15:11:09 INFO  - jmeter.reporters.Summariser: summary =     28 in 00:00:05 =    6.0/s Avg:   130 Min:     1 Max:   430 Err:     3 (10.71%) 
-2018/06/26 15:11:09 INFO  - jmeter.functions.StringFromFile: StandardJMeterEngine closing file H:\项目\接口\apiTest\jmx\服务器地址.txt 
+2018/06/26 18:27:25 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: Loading system properties from: H:\works\api_test\target\jmeter\bin\system.properties 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: java.version=1.8.0_121 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: os.name=Windows 7 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: os.arch=amd64 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: os.version=6.1 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: file.encoding=GBK 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: Max memory     =514850816 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: Available Processors =4 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: JMeterHome=H:\works\api_test\target\jmeter 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: user.dir  =H:\works\api_test\target\jmeter\bin 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: PWD       =H:\works\api_test\target\jmeter\bin 
+2018/06/26 18:27:25 INFO  - jmeter.JMeter: IP: 192.168.101.150 Name: admin-PC FullName: admin-PC 
+2018/06/26 18:27:25 INFO  - jmeter.services.FileServer: Default base='H:\works\api_test\target\jmeter\bin' 
+2018/06/26 18:27:25 INFO  - jmeter.services.FileServer: Set new base='H:\works\api_test\target\jmeter\testFiles\jmx' 
+2018/06/26 18:27:25 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2018/06/26 18:27:25 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2018/06/26 18:27:25 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.2 
+2018/06/26 18:27:25 WARN  - jmeter.save.SaveService: Bad _version - expected 3.1, found 3.2. 
+2018/06/26 18:27:25 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2018/06/26 18:27:25 INFO  - jmeter.save.SaveService: Loading file: H:\works\api_test\target\jmeter\testFiles\jmx\签收明细查询Api.jmx 
+2018/06/26 18:27:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 18:27:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 18:27:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 18:27:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 18:27:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2018/06/26 18:27:26 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2018/06/26 18:27:26 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2018/06/26 18:27:26 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/06/26 18:27:26 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/06/26 18:27:26 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/06/26 18:27:26 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2018/06/26 18:27:26 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2018/06/26 18:27:26 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\maven3_repo\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar to classpath 
+2018/06/26 18:27:26 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\geronimo-jms_1.1_spec-1.1.1.jar to classpath 
+2018/06/26 18:27:26 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\json.jar to classpath 
+2018/06/26 18:27:26 INFO  - jmeter.JMeter: 正在运行的测试 (1530008846572) 
+2018/06/26 18:27:26 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 获取token 
+2018/06/26 18:27:26 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 获取token. 
+2018/06/26 18:27:26 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/06/26 18:27:26 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/06/26 18:27:26 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/06/26 18:27:26 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 获取token to finish before starting next group 
+2018/06/26 18:27:26 INFO  - jmeter.threads.JMeterThread: Thread started: 获取token 1-1 
+2018/06/26 18:27:26 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = admin-PC 
+2018/06/26 18:27:26 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2018/06/26 18:27:26 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2018/06/26 18:27:26 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2018/06/26 18:27:26 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2018/06/26 18:27:26 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2018/06/26 18:27:26 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~~~~~获取token~~~~~~~~~~：olpfhiwxsrijdgdmcilbwyrzhcoiztazhtjlrfacxycbsfrmxpvdshfsoehatrcm 
+2018/06/26 18:27:26 INFO  - jmeter.threads.JMeterThread: Thread is done: 获取token 1-1 
+2018/06/26 18:27:26 INFO  - jmeter.threads.JMeterThread: Thread finished: 获取token 1-1 
+2018/06/26 18:27:26 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : 签收第一批数据准备 
+2018/06/26 18:27:26 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 签收第一批数据准备. 
+2018/06/26 18:27:26 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/06/26 18:27:26 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/06/26 18:27:27 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2018/06/26 18:27:27 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 签收第一批数据准备 to finish before starting next group 
+2018/06/26 18:27:27 INFO  - jmeter.threads.JMeterThread: Thread started: 签收第一批数据准备 2-1 
+2018/06/26 18:27:27 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~~~~~获取token~~~~~~~~~~：rewtasdccwnrxkonaowwgkqrksweacedvjbhvfveuefecvuofhicsybyrqszzmis 
+2018/06/26 18:27:27 INFO  - jmeter.services.FileServer: Stored: ..\resources\签收明细查询_开单数据.csv 
+2018/06/26 18:27:27 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600455 
+2018/06/26 18:27:27 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600456 
+2018/06/26 18:27:28 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600457 
+2018/06/26 18:27:28 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600458 
+2018/06/26 18:27:29 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600459 
+2018/06/26 18:27:29 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600460 
+2018/06/26 18:27:29 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：795 
+2018/06/26 18:27:29 INFO  - jmeter.util.BeanShellTestElement: 获取批次id：19357 
+2018/06/26 18:27:30 INFO  - jmeter.reporters.Summariser: summary +     16 in 00:00:04 =    4.5/s Avg:   182 Min:     0 Max:   451 Err:     0 (0.00%) Active: 1 Started: 2 Finished: 1 
+2018/06/26 18:27:30 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：201282201281 
+2018/06/26 18:27:30 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：3 
+2018/06/26 18:27:30 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：201280201279 
+2018/06/26 18:27:30 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：11 
+2018/06/26 18:27:30 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：201278201277 
+2018/06/26 18:27:30 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：3 
+2018/06/26 18:27:35 INFO  - jmeter.util.BeanShellTestElement: 查询条数：2 
+2018/06/26 18:27:35 INFO  - jmeter.threads.JMeterThread: Thread is done: 签收第一批数据准备 2-1 
+2018/06/26 18:27:35 INFO  - jmeter.threads.JMeterThread: Thread finished: 签收第一批数据准备 2-1 
+2018/06/26 18:27:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 3 : 签收第二批数据准备，不同机构 
+2018/06/26 18:27:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 签收第二批数据准备，不同机构. 
+2018/06/26 18:27:35 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/06/26 18:27:35 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 3 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/06/26 18:27:36 INFO  - jmeter.threads.ThreadGroup: Started thread group number 3 
+2018/06/26 18:27:36 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 签收第二批数据准备，不同机构 to finish before starting next group 
+2018/06/26 18:27:36 INFO  - jmeter.threads.JMeterThread: Thread started: 签收第二批数据准备，不同机构 3-1 
+2018/06/26 18:27:36 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~~~~~获取token~~~~~~~~~~：bgufunmynkahreyxnliqsnjjmtnpgvgmkuiavkqbyxwbmgezsfkcjyvyddfpmkmh 
+2018/06/26 18:27:36 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600461 
+2018/06/26 18:27:37 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600462 
+2018/06/26 18:27:37 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600463 
+2018/06/26 18:27:37 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600464 
+2018/06/26 18:27:37 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600465 
+2018/06/26 18:27:38 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600466 
+2018/06/26 18:27:38 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：18 
+2018/06/26 18:27:38 INFO  - jmeter.util.BeanShellTestElement: 获取批次id：19358 
+2018/06/26 18:27:38 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：201244201287 
+2018/06/26 18:27:38 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：8 
+2018/06/26 18:27:38 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：201286201285 
+2018/06/26 18:27:38 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：2 
+2018/06/26 18:27:39 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：201283201284 
+2018/06/26 18:27:39 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：2 
+2018/06/26 18:27:44 INFO  - jmeter.threads.JMeterThread: Thread is done: 签收第二批数据准备，不同机构 3-1 
+2018/06/26 18:27:44 INFO  - jmeter.threads.JMeterThread: Thread finished: 签收第二批数据准备，不同机构 3-1 
+2018/06/26 18:27:44 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 4 : 签收明细查询api 
+2018/06/26 18:27:44 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 签收明细查询api. 
+2018/06/26 18:27:44 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/06/26 18:27:44 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 4 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/06/26 18:27:44 INFO  - jmeter.threads.ThreadGroup: Started thread group number 4 
+2018/06/26 18:27:44 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/06/26 18:27:44 INFO  - jmeter.threads.JMeterThread: Thread started: 签收明细查询api 4-1 
+2018/06/26 18:27:44 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:44 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   import java.util.Da . . . '' : TargetError 
+2018/06/26 18:27:44 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   import java.util.Da . . . '' : TargetError 
+2018/06/26 18:27:44 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:44 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   import java.util.Da . . . '' : TargetError 
+2018/06/26 18:27:44 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   import java.util.Da . . . '' : TargetError 
+2018/06/26 18:27:44 INFO  - jmeter.services.FileServer: Stored: ..\resources\签收明细查询用例.csv Alias: ..\resources\签收明细查询用例.csv@6320204 
+2018/06/26 18:27:44 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:44 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:44 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:44 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:44 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:44 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:44 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:44 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:44 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:44 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:44 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:44 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:44 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:44 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:44 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellTestElement: 校验脚本报错 org.json.JSONException: JSONObject["data"] is not a JSONObject.
+	at org.json.JSONObject.getJSONObject(JSONObject.java:616)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at bsh.Reflect.invokeMethod(Reflect.java:134)
+	at bsh.Reflect.invokeObjectMethod(Reflect.java:80)
+	at bsh.Name.invokeMethod(Name.java:858)
+	at bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+	at bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+	at bsh.BSHVariableDeclarator.eval(BSHVariableDeclarator.java:86)
+	at bsh.BSHTypedVariableDeclaration.eval(BSHTypedVariableDeclaration.java:84)
+	at bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+	at bsh.BSHBlock.eval(BSHBlock.java:80)
+	at bsh.BSHBlock.eval(BSHBlock.java:46)
+	at bsh.BSHTryStatement.eval(BSHTryStatement.java:86)
+	at bsh.Interpreter.eval(Interpreter.java:645)
+	at bsh.Interpreter.eval(Interpreter.java:739)
+	at bsh.Interpreter.eval(Interpreter.java:728)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.jmeter.util.BeanShellInterpreter.bshInvoke(BeanShellInterpreter.java:163)
+	at org.apache.jmeter.util.BeanShellInterpreter.eval(BeanShellInterpreter.java:186)
+	at org.apache.jmeter.util.BeanShellTestElement.processFileOrScript(BeanShellTestElement.java:151)
+	at org.apache.jmeter.assertions.BeanShellAssertion.getResult(BeanShellAssertion.java:105)
+	at org.apache.jmeter.threads.JMeterThread.processAssertion(JMeterThread.java:767)
+	at org.apache.jmeter.threads.JMeterThread.checkAssertions(JMeterThread.java:758)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:502)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:418)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:249)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.util.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 WARN  - jmeter.assertions.BeanShellAssertion: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError 
+2018/06/26 18:27:45 ERROR - jmeter.functions.Jexl3Function: An error occurred while evaluating the expression "${getDataNum}!=0"
+ org.apache.commons.jexl3.JexlException$Parsing: @1:2 parsing error in '{'
+	at org.apache.commons.jexl3.JexlEngine.createExpression(JexlEngine.java:289)
+	at org.apache.jmeter.functions.Jexl3Function.execute(Jexl3Function.java:95)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:142)
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:117)
+	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101)
+	at org.apache.jmeter.testelement.AbstractTestElement.getPropertyAsString(AbstractTestElement.java:281)
+	at org.apache.jmeter.control.IfController.getCondition(IfController.java:177)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 ERROR - jmeter.control.IfController: 若查询有结果则校验合计项是否正确: error while processing []
+ java.lang.Exception:  BAD CONDITION ::  :: expected true or false
+	at org.apache.jmeter.control.IfController.computeResultFromString(IfController.java:207)
+	at org.apache.jmeter.control.IfController.access$100(IfController.java:63)
+	at org.apache.jmeter.control.IfController$RhinoJsEngine.evaluate(IfController.java:108)
+	at org.apache.jmeter.control.IfController.evaluateCondition(IfController.java:187)
+	at org.apache.jmeter.control.IfController.next(IfController.java:240)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222)
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:176)
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:123)
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:272)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018/06/26 18:27:45 INFO  - jmeter.threads.JMeterThread: Thread is done: 签收明细查询api 4-1 
+2018/06/26 18:27:45 INFO  - jmeter.threads.JMeterThread: Thread finished: 签收明细查询api 4-1 
+2018/06/26 18:27:45 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/06/26 18:27:45 INFO  - jmeter.services.FileServer: Close: ..\resources\签收明细查询用例.csv@6320204 
+2018/06/26 18:27:45 INFO  - jmeter.services.FileServer: Close: ..\resources\签收明细查询_开单数据.csv 
+2018/06/26 18:27:45 INFO  - jmeter.reporters.Summariser: summary +     46 in 00:00:15 =    3.1/s Avg:   129 Min:     1 Max:   888 Err:    15 (32.61%) Active: 0 Started: 4 Finished: 4 
+2018/06/26 18:27:45 INFO  - jmeter.reporters.Summariser: summary =     62 in 00:00:19 =    3.3/s Avg:   143 Min:     0 Max:   888 Err:    15 (24.19%) 

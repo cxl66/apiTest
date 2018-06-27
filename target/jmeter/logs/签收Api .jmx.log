@@ -1,121 +1,115 @@
-2018/06/26 15:10:47 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: Loading system properties from: H:\works\api_test\target\jmeter\bin\system.properties 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: Version 3.1 r1770033 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: java.version=1.8.0_121 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: os.name=Windows 7 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: os.arch=amd64 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: os.version=6.1 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: file.encoding=GBK 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: Max memory     =514850816 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: Available Processors =4 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: JMeterHome=H:\works\api_test\target\jmeter 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: user.dir  =H:\works\api_test\target\jmeter\bin 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: PWD       =H:\works\api_test\target\jmeter\bin 
-2018/06/26 15:10:47 INFO  - jmeter.JMeter: IP: 192.168.101.150 Name: admin-PC FullName: admin-PC 
-2018/06/26 15:10:47 INFO  - jmeter.services.FileServer: Default base='H:\works\api_test\target\jmeter\bin' 
-2018/06/26 15:10:47 INFO  - jmeter.services.FileServer: Set new base='H:\works\api_test\target\jmeter\testFiles\jmx' 
-2018/06/26 15:10:47 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2018/06/26 15:10:47 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2018/06/26 15:10:47 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.2 
-2018/06/26 15:10:47 WARN  - jmeter.save.SaveService: Bad _version - expected 3.1, found 3.2. 
-2018/06/26 15:10:47 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2018/06/26 15:10:47 INFO  - jmeter.save.SaveService: Loading file: H:\works\api_test\target\jmeter\testFiles\jmx\签收Api .jmx 
-2018/06/26 15:10:47 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/06/26 15:10:47 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/06/26 15:10:47 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/06/26 15:10:47 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
-2018/06/26 15:10:47 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2018/06/26 15:10:47 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
-2018/06/26 15:10:48 INFO  - jmeter.JMeter: Creating summariser <summary> 
-2018/06/26 15:10:48 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2018/06/26 15:10:48 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2018/06/26 15:10:48 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2018/06/26 15:10:48 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2018/06/26 15:10:48 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2018/06/26 15:10:48 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\maven3_repo\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar to classpath 
-2018/06/26 15:10:48 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\geronimo-jms_1.1_spec-1.1.1.jar to classpath 
-2018/06/26 15:10:48 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\fastjson-1.2.44.jar to classpath 
-2018/06/26 15:10:48 INFO  - jmeter.JMeter: 正在运行的测试 (1529997048189) 
-2018/06/26 15:10:48 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 获取token 
-2018/06/26 15:10:48 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 获取token. 
-2018/06/26 15:10:48 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2018/06/26 15:10:48 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2018/06/26 15:10:48 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2018/06/26 15:10:48 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 获取token to finish before starting next group 
-2018/06/26 15:10:48 INFO  - jmeter.threads.JMeterThread: Thread started: 获取token 1-1 
-2018/06/26 15:10:48 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = admin-PC 
-2018/06/26 15:10:48 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
-2018/06/26 15:10:48 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2018/06/26 15:10:48 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2018/06/26 15:10:48 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2018/06/26 15:10:48 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2018/06/26 15:10:48 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~~~~~获取token~~~~~~~~~~：mbmgyltawlroicmrekdfhctxttujwzzqdnqwxfpoyhsksiuuuikdodkohzyzzslu 
-2018/06/26 15:10:48 INFO  - jmeter.threads.JMeterThread: Thread is done: 获取token 1-1 
-2018/06/26 15:10:48 INFO  - jmeter.threads.JMeterThread: Thread finished: 获取token 1-1 
-2018/06/26 15:10:48 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : 签收数据-准备 
-2018/06/26 15:10:48 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 签收数据-准备. 
-2018/06/26 15:10:48 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2018/06/26 15:10:48 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2018/06/26 15:10:48 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
-2018/06/26 15:10:48 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 签收数据-准备 to finish before starting next group 
-2018/06/26 15:10:48 INFO  - jmeter.threads.JMeterThread: Thread started: 签收数据-准备 2-1 
-2018/06/26 15:10:48 INFO  - jmeter.services.FileServer: Stored: ..\resources\签收_开单数据.csv 
-2018/06/26 15:10:49 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600125 
-2018/06/26 15:10:49 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600126 
-2018/06/26 15:10:49 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600127 
-2018/06/26 15:10:50 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600128 
-2018/06/26 15:10:50 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600129 
-2018/06/26 15:10:50 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600130 
-2018/06/26 15:10:51 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600131 
-2018/06/26 15:10:51 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600132 
-2018/06/26 15:10:51 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600133 
-2018/06/26 15:10:52 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600134 
-2018/06/26 15:10:52 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600135 
-2018/06/26 15:10:52 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600136 
-2018/06/26 15:10:53 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：678 
-2018/06/26 15:10:53 INFO  - jmeter.util.BeanShellTestElement: 获取批次id：null 
-2018/06/26 15:10:53 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：nullnull 
-2018/06/26 15:10:53 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：0 
-2018/06/26 15:10:54 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：200021null 
-2018/06/26 15:10:54 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：1 
-2018/06/26 15:10:54 INFO  - jmeter.threads.JMeterThread: Thread is done: 签收数据-准备 2-1 
-2018/06/26 15:10:54 INFO  - jmeter.threads.JMeterThread: Thread finished: 签收数据-准备 2-1 
-2018/06/26 15:10:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 3 : 签收api 
-2018/06/26 15:10:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 签收api. 
-2018/06/26 15:10:54 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2018/06/26 15:10:54 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 3 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
-2018/06/26 15:10:54 INFO  - jmeter.threads.ThreadGroup: Started thread group number 3 
-2018/06/26 15:10:54 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2018/06/26 15:10:54 INFO  - jmeter.threads.JMeterThread: Thread started: 签收api 3-1 
-2018/06/26 15:10:55 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：200020199935 
-2018/06/26 15:10:55 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：2 
-2018/06/26 15:10:55 INFO  - jmeter.util.BeanShellTestElement: ~~~查询语句为~~~~SELECT * from t_order_signoff WHERE order_id in (200020,199935) 
-2018/06/26 15:10:56 INFO  - jmeter.util.BeanShellTestElement: 查询条数：2 
-2018/06/26 15:10:56 INFO  - jmeter.services.FileServer: Stored: ..\resources\签收_不同收款方式.csv 
-2018/06/26 15:10:56 INFO  - jmeter.util.BeanShellTestElement: 获取可签收的运单id：199927 
-2018/06/26 15:10:56 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：30 
-2018/06/26 15:10:57 INFO  - jmeter.util.BeanShellTestElement: 查询条数：0 
-2018/06/26 15:10:58 INFO  - jmeter.util.BeanShellTestElement: 获取可签收的运单id：199927 
-2018/06/26 15:10:58 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：30 
-2018/06/26 15:10:59 INFO  - jmeter.util.BeanShellTestElement: 查询条数：1 
-2018/06/26 15:10:59 INFO  - jmeter.util.BeanShellTestElement: 获取可签收的运单id：199928 
-2018/06/26 15:10:59 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：29 
-2018/06/26 15:11:00 INFO  - jmeter.util.BeanShellTestElement: 查询条数：0 
-2018/06/26 15:11:00 INFO  - jmeter.reporters.Summariser: summary +     33 in 00:00:12 =    2.8/s Avg:   254 Min:     0 Max:   846 Err:     7 (21.21%) Active: 1 Started: 3 Finished: 2 
-2018/06/26 15:11:00 INFO  - jmeter.util.BeanShellTestElement: 获取可签收的运单id：199928 
-2018/06/26 15:11:00 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：29 
-2018/06/26 15:11:00 INFO  - jmeter.util.BeanShellTestElement: 查询条数：1 
-2018/06/26 15:11:02 INFO  - jmeter.util.BeanShellTestElement: 查询条数：0 
-2018/06/26 15:11:02 INFO  - jmeter.util.BeanShellTestElement: ~~~查询语句为~~~~SELECT * from t_order_signoff WHERE order_id in (200021,null) 
-2018/06/26 15:11:03 INFO  - jmeter.util.BeanShellTestElement: 查询条数：0 
-2018/06/26 15:11:03 INFO  - jmeter.threads.JMeterThread: Thread is done: 签收api 3-1 
-2018/06/26 15:11:03 INFO  - jmeter.threads.JMeterThread: Thread finished: 签收api 3-1 
-2018/06/26 15:11:03 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2018/06/26 15:11:03 INFO  - jmeter.services.FileServer: Close: ..\resources\签收_开单数据.csv 
-2018/06/26 15:11:03 INFO  - jmeter.services.FileServer: Close: ..\resources\签收_不同收款方式.csv 
-2018/06/26 15:11:03 INFO  - jmeter.reporters.Summariser: summary +      4 in 00:00:03 =    1.2/s Avg:   197 Min:   104 Max:   288 Err:     2 (50.00%) Active: 0 Started: 3 Finished: 3 
-2018/06/26 15:11:03 INFO  - jmeter.reporters.Summariser: summary =     37 in 00:00:15 =    2.4/s Avg:   247 Min:     0 Max:   846 Err:     9 (24.32%) 
+2018/06/26 18:26:35 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: Loading system properties from: H:\works\api_test\target\jmeter\bin\system.properties 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: java.version=1.8.0_121 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: os.name=Windows 7 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: os.arch=amd64 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: os.version=6.1 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: file.encoding=GBK 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: Max memory     =514850816 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: Available Processors =4 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: JMeterHome=H:\works\api_test\target\jmeter 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: user.dir  =H:\works\api_test\target\jmeter\bin 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: PWD       =H:\works\api_test\target\jmeter\bin 
+2018/06/26 18:26:35 INFO  - jmeter.JMeter: IP: 192.168.101.150 Name: admin-PC FullName: admin-PC 
+2018/06/26 18:26:35 INFO  - jmeter.services.FileServer: Default base='H:\works\api_test\target\jmeter\bin' 
+2018/06/26 18:26:35 INFO  - jmeter.services.FileServer: Set new base='H:\works\api_test\target\jmeter\testFiles\jmx' 
+2018/06/26 18:26:35 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2018/06/26 18:26:35 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2018/06/26 18:26:35 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.2 
+2018/06/26 18:26:35 WARN  - jmeter.save.SaveService: Bad _version - expected 3.1, found 3.2. 
+2018/06/26 18:26:35 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2018/06/26 18:26:35 INFO  - jmeter.save.SaveService: Loading file: H:\works\api_test\target\jmeter\testFiles\jmx\签收Api .jmx 
+2018/06/26 18:26:36 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 18:26:36 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 18:26:36 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 18:26:36 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/06/26 18:26:36 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2018/06/26 18:26:36 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2018/06/26 18:26:36 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2018/06/26 18:26:36 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/06/26 18:26:36 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/06/26 18:26:36 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/06/26 18:26:36 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2018/06/26 18:26:36 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2018/06/26 18:26:36 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\maven3_repo\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar to classpath 
+2018/06/26 18:26:36 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\geronimo-jms_1.1_spec-1.1.1.jar to classpath 
+2018/06/26 18:26:36 INFO  - jmeter.testelement.TestPlan: add G:\Program Files\apache-jmeter-3.3\lib\fastjson-1.2.44.jar to classpath 
+2018/06/26 18:26:36 INFO  - jmeter.JMeter: 正在运行的测试 (1530008796350) 
+2018/06/26 18:26:36 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 获取token 
+2018/06/26 18:26:36 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 获取token. 
+2018/06/26 18:26:36 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/06/26 18:26:36 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/06/26 18:26:36 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/06/26 18:26:36 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 获取token to finish before starting next group 
+2018/06/26 18:26:36 INFO  - jmeter.threads.JMeterThread: Thread started: 获取token 1-1 
+2018/06/26 18:26:36 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = admin-PC 
+2018/06/26 18:26:36 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2018/06/26 18:26:36 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2018/06/26 18:26:36 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2018/06/26 18:26:36 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2018/06/26 18:26:36 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2018/06/26 18:26:36 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~~~~~获取token~~~~~~~~~~：hxohmgnnkwpkzyjdnmtacychldandfnkpwtdxhirmjiepnxqfbrunawpzuakjbsz 
+2018/06/26 18:26:36 INFO  - jmeter.threads.JMeterThread: Thread is done: 获取token 1-1 
+2018/06/26 18:26:36 INFO  - jmeter.threads.JMeterThread: Thread finished: 获取token 1-1 
+2018/06/26 18:26:36 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : 签收数据-准备 
+2018/06/26 18:26:36 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 签收数据-准备. 
+2018/06/26 18:26:36 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/06/26 18:26:36 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/06/26 18:26:36 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2018/06/26 18:26:36 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 签收数据-准备 to finish before starting next group 
+2018/06/26 18:26:36 INFO  - jmeter.threads.JMeterThread: Thread started: 签收数据-准备 2-1 
+2018/06/26 18:26:36 INFO  - jmeter.services.FileServer: Stored: ..\resources\签收_开单数据.csv 
+2018/06/26 18:26:37 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600449 
+2018/06/26 18:26:37 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600450 
+2018/06/26 18:26:37 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600451 
+2018/06/26 18:26:38 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600452 
+2018/06/26 18:26:38 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600453 
+2018/06/26 18:26:39 INFO  - jmeter.util.BeanShellTestElement: 获取运单id：3518062600454 
+2018/06/26 18:26:39 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：795 
+2018/06/26 18:26:39 INFO  - jmeter.util.BeanShellTestElement: 获取批次id：19356 
+2018/06/26 18:26:40 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：201274201273 
+2018/06/26 18:26:40 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：3 
+2018/06/26 18:26:40 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：201275201276 
+2018/06/26 18:26:40 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：11 
+2018/06/26 18:26:40 INFO  - jmeter.threads.JMeterThread: Thread is done: 签收数据-准备 2-1 
+2018/06/26 18:26:40 INFO  - jmeter.threads.JMeterThread: Thread finished: 签收数据-准备 2-1 
+2018/06/26 18:26:40 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 3 : 签收api 
+2018/06/26 18:26:40 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 签收api. 
+2018/06/26 18:26:40 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/06/26 18:26:40 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 3 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/06/26 18:26:40 INFO  - jmeter.threads.ThreadGroup: Started thread group number 3 
+2018/06/26 18:26:40 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/06/26 18:26:40 INFO  - jmeter.threads.JMeterThread: Thread started: 签收api 3-1 
+2018/06/26 18:26:42 INFO  - jmeter.util.BeanShellTestElement: 获取自提的运单id：201271201272 
+2018/06/26 18:26:42 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：3 
+2018/06/26 18:26:45 INFO  - jmeter.util.BeanShellTestElement: ~~~查询语句为~~~~SELECT * from t_order_signoff WHERE order_id in (201271,201272) 
+2018/06/26 18:26:46 INFO  - jmeter.util.BeanShellTestElement: 查询条数：2 
+2018/06/26 18:26:46 INFO  - jmeter.services.FileServer: Stored: ..\resources\签收_不同收款方式.csv 
+2018/06/26 18:26:50 INFO  - jmeter.util.BeanShellTestElement: 获取可签收的运单id：201274 
+2018/06/26 18:26:50 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：10 
+2018/06/26 18:26:54 INFO  - jmeter.util.BeanShellTestElement: 查询条数：1 
+2018/06/26 18:26:58 INFO  - jmeter.util.BeanShellTestElement: 获取可签收的运单id：201273 
+2018/06/26 18:26:58 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：9 
+2018/06/26 18:27:03 INFO  - jmeter.util.BeanShellTestElement: 查询条数：1 
+2018/06/26 18:27:03 INFO  - jmeter.reporters.Summariser: summary +     25 in 00:00:27 =    0.9/s Avg:   210 Min:     0 Max:   618 Err:     0 (0.00%) Active: 1 Started: 3 Finished: 2 
+2018/06/26 18:27:07 INFO  - jmeter.util.BeanShellTestElement: 获取可签收的运单id：201275 
+2018/06/26 18:27:07 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：8 
+2018/06/26 18:27:11 INFO  - jmeter.util.BeanShellTestElement: 查询条数：1 
+2018/06/26 18:27:16 INFO  - jmeter.util.BeanShellTestElement: 获取可签收的运单id：201276 
+2018/06/26 18:27:16 INFO  - jmeter.util.BeanShellTestElement: 获取到可配载运单的总数：7 
+2018/06/26 18:27:20 INFO  - jmeter.util.BeanShellTestElement: 查询条数：1 
+2018/06/26 18:27:22 INFO  - jmeter.util.BeanShellTestElement: 查询条数：2 
+2018/06/26 18:27:24 INFO  - jmeter.util.BeanShellTestElement: ~~~查询语句为~~~~SELECT * from t_order_signoff WHERE order_id in (201275,201276) 
+2018/06/26 18:27:24 INFO  - jmeter.util.BeanShellTestElement: 查询条数：2 
+2018/06/26 18:27:24 INFO  - jmeter.threads.JMeterThread: Thread is done: 签收api 3-1 
+2018/06/26 18:27:24 INFO  - jmeter.threads.JMeterThread: Thread finished: 签收api 3-1 
+2018/06/26 18:27:24 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/06/26 18:27:24 INFO  - jmeter.services.FileServer: Close: ..\resources\签收_开单数据.csv 
+2018/06/26 18:27:24 INFO  - jmeter.services.FileServer: Close: ..\resources\签收_不同收款方式.csv 
+2018/06/26 18:27:24 INFO  - jmeter.reporters.Summariser: summary +      6 in 00:00:22 =    0.3/s Avg:   175 Min:    58 Max:   381 Err:     0 (0.00%) Active: 0 Started: 3 Finished: 3 
+2018/06/26 18:27:24 INFO  - jmeter.reporters.Summariser: summary =     31 in 00:00:49 =    0.6/s Avg:   203 Min:     0 Max:   618 Err:     0 (0.00%) 

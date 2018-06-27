@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="282" it="0" lt="281" ct="198" ts="1529997065207" s="true" lb="登陆" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="524" sby="397" ng="1" na="1">
+<httpSample t="164" it="0" lt="162" ct="76" ts="1530008846732" s="true" lb="登陆提取token" rc="200" rm="OK" tn="获取token 1-1" dt="text" by="524" sby="390" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>获取token成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1530008846969" s="true" lb="设置全局变量" rc="200" rm="OK" tn="获取token 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="52" it="0" lt="52" ct="17" ts="1530008847065" s="true" lb="登陆提取token" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="524" sby="444" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>获取token成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1530008847119" s="true" lb="设置全局变量" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="253" it="0" lt="253" ct="0" ts="1530008847276" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="256" sby="1271" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="345" it="0" lt="345" ct="0" ts="1530008847545" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="256" sby="1271" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="349" it="0" lt="349" ct="0" ts="1530008847902" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="256" sby="1284" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="451" it="0" lt="450" ct="0" ts="1530008848264" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="256" sby="1284" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="291" it="0" lt="291" ct="0" ts="1530008848726" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="256" sby="1271" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="272" it="0" lt="272" ct="0" ts="1530008849029" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="256" sby="1271" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="296" it="0" lt="112" ct="31" ts="1530008849337" s="true" lb="获取可配载数据" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="89254" sby="413" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="108" it="0" lt="108" ct="0" ts="1530008849692" s="true" lb="配载发车" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="245" sby="504" ng="1" na="1">
+  <assertionResult>
+    <name>校验配载是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="29" it="0" lt="28" ct="0" ts="1530008849802" s="true" lb="登陆切换机构" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="524" sby="397" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -8,32 +90,8 @@
     <failureMessage></failureMessage>
   </assertionResult>
 </httpSample>
-<sample t="1" it="0" lt="0" ct="0" ts="1529997065557" s="true" lb="到站token保存到全局变量" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="312" it="0" lt="253" ct="0" ts="1529997065560" s="true" lb="按签收日期查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="548" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage>签收时间正确</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="72" it="0" lt="72" ct="0" ts="1529997065984" s="false" lb="按开单日期查询--待如何准备测试数据，开单日期与签收日期不同覆盖" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="281" sby="601" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>true</failure>
-    <error>false</error>
-    <failureMessage>无测试数据，请确认</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="106" it="0" lt="106" ct="0" ts="1529997066089" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="281" sby="546" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>true</failure>
-    <error>false</error>
-    <failureMessage>无测试数据，请确认</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="154" it="0" lt="101" ct="0" ts="1529997066377" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="552" ng="1" na="1">
+<sample t="1" it="0" lt="0" ct="0" ts="1530008849834" s="true" lb="到站token保存到全局变量" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="40" ct="0" ts="1530008849836" s="true" lb="查询在途中的批次" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="4033" sby="454" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -41,15 +99,162 @@
     <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="68" it="0" lt="68" ct="0" ts="1529997066587" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="571" ng="1" na="1">
+<httpSample t="260" it="0" lt="259" ct="0" ts="1530008849883" s="true" lb="确认到车" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="245" sby="334" ng="1" na="1">
+  <assertionResult>
+    <name>校验配载是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="49" it="0" lt="48" ct="0" ts="1530008850153" s="true" lb="获取送货上门数据" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="13623" sby="419" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="347" it="0" lt="347" ct="0" ts="1530008850211" s="true" lb="送货上门" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="245" sby="542" ng="1" na="1">
+  <assertionResult>
+    <name>校验自提签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="120" it="0" lt="99" ct="0" ts="1530008850565" s="true" lb="获取外转数据" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="49167" sby="409" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="159" it="0" lt="159" ct="0" ts="1530008850700" s="true" lb="外转" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="245" sby="867" ng="1" na="1">
+  <assertionResult>
+    <name>校验外转是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1530008850864" s="true" lb="将运单id存入全局变量" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="54" it="0" lt="53" ct="0" ts="1530008850866" s="true" lb="获取可自提数据" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="13797" sby="431" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="235" it="0" lt="235" ct="0" ts="1530008850935" s="true" lb="自提签收" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="305" sby="483" ng="1" na="1">
+  <assertionResult>
+    <name>校验自提签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="201" it="0" lt="201" ct="19" ts="1530008853177" s="true" lb="外转运单签收" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="305" sby="465" ng="1" na="1">
+  <assertionResult>
+    <name>校验外转签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="186" it="0" lt="186" ct="14" ts="1530008855384" s="true" lb="送货运单签收" rc="200" rm="OK" tn="签收第一批数据准备 2-1" dt="text" by="305" sby="465" ng="1" na="1">
+  <assertionResult>
+    <name>校验外转签收是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>签收写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="194" it="0" lt="194" ct="110" ts="1530008856103" s="true" lb="登陆提取token" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="524" sby="444" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
     <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
+    <failureMessage>获取token成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="211" it="0" lt="184" ct="0" ts="1529997066669" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="546" ng="1" na="1">
+<sample t="3" it="0" lt="0" ct="0" ts="1530008856306" s="true" lb="设置全局变量" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="350" it="0" lt="349" ct="0" ts="1530008856353" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="256" sby="1271" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="291" it="0" lt="291" ct="0" ts="1530008856713" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="256" sby="1271" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="299" it="0" lt="299" ct="0" ts="1530008857012" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="256" sby="1284" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="326" it="0" lt="325" ct="0" ts="1530008857319" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="256" sby="1284" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="274" it="0" lt="274" ct="0" ts="1530008857653" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="256" sby="1271" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="310" it="0" lt="310" ct="0" ts="1530008857932" s="true" lb="开单-自提/送货/外转" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="256" sby="1271" ng="1" na="1">
+  <assertionResult>
+    <name>校验开单是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="159" it="0" lt="94" ct="15" ts="1530008858248" s="true" lb="获取可配载数据" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="80059" sby="413" ng="1" na="1">
+  <assertionResult>
+    <name>校验是否有可用数据</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="95" it="0" lt="95" ct="0" ts="1530008858439" s="true" lb="配载发车" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="245" sby="504" ng="1" na="1">
+  <assertionResult>
+    <name>校验配载是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>接口返回值正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1530008858540" s="true" lb="登陆切换机构" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="524" sby="397" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1530008858585" s="true" lb="到站token保存到全局变量" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1530008858587" s="true" lb="查询在途中的批次" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="2159" sby="454" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -57,164 +262,189 @@
     <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="70" it="0" lt="70" ct="0" ts="1529997066907" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="565" ng="1" na="1">
+<httpSample t="213" it="0" lt="213" ct="0" ts="1530008858639" s="true" lb="确认到车" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="245" sby="334" ng="1" na="1">
   <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="141" it="0" lt="90" ct="0" ts="1529997067003" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="552" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
+    <name>校验配载是否成功</name>
     <failure>false</failure>
     <error>false</error>
     <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="65" it="0" lt="65" ct="0" ts="1529997067190" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="571" ng="1" na="1">
+<httpSample t="64" it="0" lt="51" ct="0" ts="1530008858856" s="true" lb="获取送货上门数据" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="35773" sby="419" ng="1" na="1">
   <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="139" it="0" lt="139" ct="66" ts="1529997067268" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="281" sby="544" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>true</failure>
-    <error>false</error>
-    <failureMessage>无测试数据，请确认</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="159" it="0" lt="104" ct="0" ts="1529997067417" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="548" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
+    <name>校验是否有可用数据</name>
     <failure>false</failure>
     <error>false</error>
     <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="430" it="0" lt="430" ct="0" ts="1529997067601" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="567" ng="1" na="1">
+<httpSample t="59" it="0" lt="59" ct="0" ts="1530008858934" s="true" lb="获取外转数据" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="9177" sby="409" ng="1" na="1">
   <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="155" it="0" lt="154" ct="0" ts="1529997068044" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="9119" sby="544" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
+    <name>校验是否有可用数据</name>
     <failure>false</failure>
     <error>false</error>
     <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="79" it="0" lt="78" ct="0" ts="1529997068221" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="563" ng="1" na="1">
+<httpSample t="258" it="0" lt="258" ct="0" ts="1530008859001" s="true" lb="外转" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="245" sby="873" ng="1" na="1">
   <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="199" it="0" lt="139" ct="0" ts="1529997068308" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="548" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
+    <name>校验外转是否成功</name>
     <failure>false</failure>
     <error>false</error>
     <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="70" it="0" lt="70" ct="0" ts="1529997068519" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="567" ng="1" na="1">
+<sample t="1" it="0" lt="0" ct="0" ts="1530008859266" s="true" lb="将运单id存入全局变量" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="87" it="0" lt="87" ct="0" ts="1530008859267" s="true" lb="获取可自提数据" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="9279" sby="431" ng="1" na="1">
   <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="146" it="0" lt="90" ct="0" ts="1529997068598" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="541" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
+    <name>校验是否有可用数据</name>
     <failure>false</failure>
     <error>false</error>
     <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="54" it="0" lt="54" ct="0" ts="1529997068758" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="560" ng="1" na="1">
+<httpSample t="203" it="0" lt="203" ct="0" ts="1530008859361" s="true" lb="自提签收" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="305" sby="483" ng="1" na="1">
   <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="126" it="0" lt="79" ct="0" ts="1529997068816" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="18007" sby="541" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
+    <name>校验自提签收是否成功</name>
     <failure>false</failure>
     <error>false</error>
     <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="68" it="0" lt="68" ct="0" ts="1529997068955" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="560" ng="1" na="1">
+<httpSample t="888" it="0" lt="888" ct="33" ts="1530008861569" s="true" lb="送货运单原返签收" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="256" sby="1500" ng="1" na="1">
   <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="106" it="0" lt="67" ct="0" ts="1529997069026" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="541" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
+    <name>校验外转签收是否成功</name>
     <failure>false</failure>
     <error>false</error>
     <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="62" it="0" lt="62" ct="0" ts="1529997069159" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="560" ng="1" na="1">
+<httpSample t="220" it="0" lt="220" ct="15" ts="1530008864464" s="true" lb="外转运单签收" rc="200" rm="OK" tn="签收第二批数据准备，不同机构 3-1" dt="text" by="305" sby="465" ng="1" na="1">
   <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="127" it="0" lt="92" ct="0" ts="1529997069231" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="17999" sby="541" ng="1" na="1">
-  <assertionResult>
-    <name>BeanShell断言</name>
+    <name>校验外转签收是否成功</name>
     <failure>false</failure>
     <error>false</error>
     <failureMessage>接口返回值正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="88" it="0" lt="88" ct="36" ts="1529997069375" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="560" ng="1" na="1">
+<httpSample t="43" it="0" lt="43" ct="29" ts="1530008864742" s="false" lb="按签收日期查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="469" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
-    <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   import java.util.Da . . . &apos;&apos; : TargetError</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="93" it="0" lt="92" ct="0" ts="1529997069470" s="true" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="13590" sby="547" ng="1" na="1">
+<httpSample t="15" it="0" lt="15" ct="0" ts="1530008864870" s="false" lb="按开单日期查询--待如何准备测试数据，开单日期与签收日期不同覆盖" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="522" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
-    <error>false</error>
-    <failureMessage>接口返回值正确</failureMessage>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   import java.util.Da . . . &apos;&apos; : TargetError</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="72" it="0" lt="72" ct="0" ts="1529997069590" s="true" lb="合计接口校验" rc="200" rm="OK" tn="签收明细查询api 1-1" dt="text" by="831" sby="566" ng="1" na="1">
+<httpSample t="27" it="0" lt="27" ct="0" ts="1530008864894" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="467" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
-    <error>false</error>
-    <failureMessage>统计结果正确</failureMessage>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1530008864944" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="473" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1530008864974" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="467" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="6" it="0" lt="6" ct="0" ts="1530008864990" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="473" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1530008865005" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="465" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1530008865022" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="469" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="0" ts="1530008865038" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="465" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1530008865061" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="469" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="0" ts="1530008865079" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="462" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="9" it="0" lt="9" ct="0" ts="1530008865097" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="462" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="0" ts="1530008865114" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="462" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="19" it="0" lt="18" ct="0" ts="1530008865143" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="462" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="8" it="0" lt="7" ct="0" ts="1530008865170" s="false" lb="按其他筛选条件查询" rc="200" rm="OK" tn="签收明细查询api 4-1" dt="text" by="279" sby="468" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>true</error>
+    <failureMessage>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . &apos;&apos; : TargetError</failureMessage>
   </assertionResult>
 </httpSample>
 

@@ -146,7 +146,7 @@ else{
         <hashTree/>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="开单" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">12</stringProp>
+          <stringProp name="LoopController.loops">6</stringProp>
         </LoopController>
         <hashTree>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="开单数据包括自提/送货/外转" enabled="true">
@@ -280,7 +280,7 @@ else{
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">service=allot.create_depart&amp;params={&quot;orderIds&quot;:[${id1},${id2},${id3},${id4},${id5},${id6}],&quot;allotInfo&quot;:{&quot;arriveStation&quot;:10568,&quot;truckId&quot;:10261,&quot;plateNum&quot;:&quot;宁A0001&quot;,&quot;driver1Id&quot;:10188,&quot;driver1Tel&quot;:&quot;18657176239&quot;}}</stringProp>
+                  <stringProp name="Argument.value">service=allot.create_depart&amp;params={&quot;orderIds&quot;:[${id1},${id2},${id3},${id4},${id5},${id6}],&quot;allotInfo&quot;:{&quot;arriveStation&quot;:10593,&quot;truckId&quot;:10449,&quot;plateNum&quot;:&quot;浙A1001&quot;,&quot;driver1Id&quot;:10272,&quot;driver1Tel&quot;:&quot;19911111111&quot;}}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -704,7 +704,7 @@ else{
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">service=transit.transit&amp;params={&quot;transits&quot;:[{&quot;orderId&quot;:${wz_id1},&quot;cooperId&quot;:10166,&quot;orderNumber&quot;:&quot;&quot;,&quot;cargoNumber&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;transitNumber&quot;:&quot;111111&quot;,&quot;fee&quot;:0,&quot;deliveryFee&quot;:0,&quot;contactName&quot;:&quot;cxl&quot;,&quot;mobile&quot;:&quot;15825529716&quot;,&quot;phone&quot;:null,&quot;address&quot;:null,&quot;paymentType&quot;:2,&quot;refund&quot;:0,&quot;rebate&quot;:0,&quot;manager&quot;:&quot;cxl-2部门&quot;},{&quot;orderId&quot;:${wz_id2},&quot;cooperId&quot;:10166,&quot;orderNumber&quot;:&quot;&quot;,&quot;cargoNumber&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;transitNumber&quot;:&quot;222222&quot;,&quot;fee&quot;:0,&quot;deliveryFee&quot;:0,&quot;contactName&quot;:&quot;cxl&quot;,&quot;mobile&quot;:&quot;15825529716&quot;,&quot;phone&quot;:null,&quot;address&quot;:null,&quot;paymentType&quot;:2,&quot;refund&quot;:0,&quot;rebate&quot;:0,&quot;manager&quot;:&quot;cxl-2部门&quot;}]}</stringProp>
+                  <stringProp name="Argument.value">service=transit.transit&amp;params={&quot;transits&quot;:[{&quot;orderId&quot;:${wz_id1},&quot;cooperId&quot;:10172,&quot;orderNumber&quot;:&quot;&quot;,&quot;cargoNumber&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;transitNumber&quot;:&quot;111111&quot;,&quot;fee&quot;:0,&quot;deliveryFee&quot;:0,&quot;contactName&quot;:&quot;cxl&quot;,&quot;mobile&quot;:&quot;15825529716&quot;,&quot;phone&quot;:null,&quot;address&quot;:null,&quot;paymentType&quot;:2,&quot;refund&quot;:0,&quot;rebate&quot;:0,&quot;manager&quot;:&quot;cxl-2部门&quot;},{&quot;orderId&quot;:${wz_id2},&quot;cooperId&quot;:10172,&quot;orderNumber&quot;:&quot;&quot;,&quot;cargoNumber&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;transitNumber&quot;:&quot;222222&quot;,&quot;fee&quot;:0,&quot;deliveryFee&quot;:0,&quot;contactName&quot;:&quot;cxl&quot;,&quot;mobile&quot;:&quot;15825529716&quot;,&quot;phone&quot;:null,&quot;address&quot;:null,&quot;paymentType&quot;:2,&quot;refund&quot;:0,&quot;rebate&quot;:0,&quot;manager&quot;:&quot;cxl-2部门&quot;}]}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -1258,6 +1258,10 @@ if (!conn.isClosed()) {
               </JSONPostProcessor>
               <hashTree/>
             </hashTree>
+            <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="固定定时器" enabled="true">
+              <stringProp name="ConstantTimer.delay">2000</stringProp>
+            </ConstantTimer>
+            <hashTree/>
           </hashTree>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="送货运单签收" enabled="true">
@@ -1388,6 +1392,10 @@ if (!conn.isClosed()) {
           </JSONPostProcessor>
           <hashTree/>
         </hashTree>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="固定定时器" enabled="true">
+          <stringProp name="ConstantTimer.delay">2000</stringProp>
+        </ConstantTimer>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="外转运单签收" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">

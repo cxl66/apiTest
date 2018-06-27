@@ -105,7 +105,7 @@
 <th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th>
 </tr>
 <tr valign="top" class="Failure">
-<td align="center">28</td><td align="center">3</td><td align="center">89.29%</td><td align="center">131 ms</td><td align="center">NaN</td><td align="center">NaN</td>
+<td align="center">62</td><td align="center">15</td><td align="center">75.81%</td><td align="center">143 ms</td><td align="center">NaN</td><td align="center">NaN</td>
 </tr>
 </table>
 <hr size="1" width="95%" align="center">
@@ -115,27 +115,195 @@
 <th>URL</th><th># Samples</th><th>Failures</th><th>Success Rate</th><th>Average Time</th><th>Min Time</th><th>Max Time</th><th></th>
 </tr>
 <tr valign="top" class="">
-<td>登陆</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">282 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_1')"><img src="expand.png" alt="expand/collapse" id="page_details_1_image"></a></td>
+<td>登陆提取token</td><td align="center">3</td><td align="center">0</td><td align="right">100.00%</td><td align="right">137 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_1')"><img src="expand.png" alt="expand/collapse" id="page_details_1_image"></a></td>
 </tr>
 <tr class="page_details" id="page_details_1">
 <td colspan="8" bgcolor="#FF0000">
 <div align="center">
-<b>Details for Page "登陆"</b>
+<b>Details for Page "登陆提取token"</b>
 <table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
 <tr>
 <th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">282</td><td align="right">524</td><td align="center">true</td>
+<td>获取token 1-1</td><td align="center">1</td><td align="right">164</td><td align="right">524</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">2</td><td align="right">52</td><td align="right">524</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">3</td><td align="right">194</td><td align="right">524</td><td align="center">true</td>
 </tr>
 </table>
 </div>
 </td>
 </tr>
 <tr valign="top" class="">
-<td>到站token保存到全局变量</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_2')"><img src="expand.png" alt="expand/collapse" id="page_details_2_image"></a></td>
+<td>设置全局变量</td><td align="center">3</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_2')"><img src="expand.png" alt="expand/collapse" id="page_details_2_image"></a></td>
 </tr>
 <tr class="page_details" id="page_details_2">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "设置全局变量"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>获取token 1-1</td><td align="center">1</td><td align="right">0</td><td align="right">0</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">2</td><td align="right">1</td><td align="right">0</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">3</td><td align="right">3</td><td align="right">0</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>登陆提取token</td><td align="center">3</td><td align="center">0</td><td align="right">100.00%</td><td align="right">137 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_3')"><img src="expand.png" alt="expand/collapse" id="page_details_3_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_3">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "登陆提取token"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>获取token 1-1</td><td align="center">1</td><td align="right">164</td><td align="right">524</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">2</td><td align="right">52</td><td align="right">524</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">3</td><td align="right">194</td><td align="right">524</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>开单-自提/送货/外转</td><td align="center">12</td><td align="center">0</td><td align="right">100.00%</td><td align="right">318 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_4')"><img src="expand.png" alt="expand/collapse" id="page_details_4_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_4">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "开单-自提/送货/外转"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">253</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">2</td><td align="right">345</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">3</td><td align="right">349</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">4</td><td align="right">451</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">5</td><td align="right">291</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">6</td><td align="right">272</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">7</td><td align="right">350</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">8</td><td align="right">291</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">9</td><td align="right">299</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">10</td><td align="right">326</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">11</td><td align="right">274</td><td align="right">256</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">12</td><td align="right">310</td><td align="right">256</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>获取可配载数据</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">228 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_5')"><img src="expand.png" alt="expand/collapse" id="page_details_5_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_5">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "获取可配载数据"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">296</td><td align="right">89254</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">159</td><td align="right">80059</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>配载发车</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">102 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_6')"><img src="expand.png" alt="expand/collapse" id="page_details_6_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_6">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "配载发车"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">108</td><td align="right">245</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">95</td><td align="right">245</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>登陆切换机构</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">35 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_7')"><img src="expand.png" alt="expand/collapse" id="page_details_7_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_7">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "登陆切换机构"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">29</td><td align="right">524</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">41</td><td align="right">524</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>到站token保存到全局变量</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_8')"><img src="expand.png" alt="expand/collapse" id="page_details_8_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_8">
 <td colspan="8" bgcolor="#FF0000">
 <div align="center">
 <b>Details for Page "到站token保存到全局变量"</b>
@@ -144,16 +312,262 @@
 <th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">1</td><td align="right">0</td><td align="center">true</td>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">1</td><td align="right">0</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">1</td><td align="right">0</td><td align="center">true</td>
 </tr>
 </table>
 </div>
 </td>
 </tr>
 <tr valign="top" class="">
-<td>按签收日期查询</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">312 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_3')"><img src="expand.png" alt="expand/collapse" id="page_details_3_image"></a></td>
+<td>查询在途中的批次</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">44 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_9')"><img src="expand.png" alt="expand/collapse" id="page_details_9_image"></a></td>
 </tr>
-<tr class="page_details" id="page_details_3">
+<tr class="page_details" id="page_details_9">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "查询在途中的批次"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">41</td><td align="right">4033</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">46</td><td align="right">2159</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>确认到车</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">236 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_10')"><img src="expand.png" alt="expand/collapse" id="page_details_10_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_10">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "确认到车"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">260</td><td align="right">245</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">213</td><td align="right">245</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>获取送货上门数据</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">56 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_11')"><img src="expand.png" alt="expand/collapse" id="page_details_11_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_11">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "获取送货上门数据"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">49</td><td align="right">13623</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">64</td><td align="right">35773</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>送货上门</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">347 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_12')"><img src="expand.png" alt="expand/collapse" id="page_details_12_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_12">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "送货上门"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">347</td><td align="right">245</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>获取外转数据</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">90 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_13')"><img src="expand.png" alt="expand/collapse" id="page_details_13_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_13">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "获取外转数据"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">120</td><td align="right">49167</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">59</td><td align="right">9177</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>外转</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">208 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_14')"><img src="expand.png" alt="expand/collapse" id="page_details_14_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_14">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "外转"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">159</td><td align="right">245</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">258</td><td align="right">245</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>将运单id存入全局变量</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">1 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_15')"><img src="expand.png" alt="expand/collapse" id="page_details_15_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_15">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "将运单id存入全局变量"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">1</td><td align="right">0</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">1</td><td align="right">0</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>获取可自提数据</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">70 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_16')"><img src="expand.png" alt="expand/collapse" id="page_details_16_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_16">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "获取可自提数据"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">54</td><td align="right">13797</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">87</td><td align="right">9279</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>自提签收</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">219 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_17')"><img src="expand.png" alt="expand/collapse" id="page_details_17_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_17">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "自提签收"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">235</td><td align="right">305</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">203</td><td align="right">305</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>外转运单签收</td><td align="center">2</td><td align="center">0</td><td align="right">100.00%</td><td align="right">210 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_18')"><img src="expand.png" alt="expand/collapse" id="page_details_18_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_18">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "外转运单签收"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">201</td><td align="right">305</td><td align="center">true</td>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">2</td><td align="right">220</td><td align="right">305</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>送货运单签收</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">186 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_19')"><img src="expand.png" alt="expand/collapse" id="page_details_19_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_19">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "送货运单签收"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第一批数据准备 2-1</td><td align="center">1</td><td align="right">186</td><td align="right">305</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="">
+<td>送货运单原返签收</td><td align="center">1</td><td align="center">0</td><td align="right">100.00%</td><td align="right">888 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_20')"><img src="expand.png" alt="expand/collapse" id="page_details_20_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_20">
+<td colspan="8" bgcolor="#FF0000">
+<div align="center">
+<b>Details for Page "送货运单原返签收"</b>
+<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+<tr>
+<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
+</tr>
+<tr>
+<td>签收第二批数据准备，不同机构 3-1</td><td align="center">1</td><td align="right">888</td><td align="right">256</td><td align="center">true</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#%E6%8C%89%E7%AD%BE%E6%94%B6%E6%97%A5%E6%9C%9F%E6%9F%A5%E8%AF%A2">按签收日期查询</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">43 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_21')"><img src="expand.png" alt="expand/collapse" id="page_details_21_image"></a></td>
+</tr>
+<tr class="page_details" id="page_details_21">
 <td colspan="8" bgcolor="#FF0000">
 <div align="center">
 <b>Details for Page "按签收日期查询"</b>
@@ -162,16 +576,16 @@
 <th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">312</td><td align="right">17999</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">1</td><td align="right">43</td><td align="right">279</td><td align="center">false</td>
 </tr>
 </table>
 </div>
 </td>
 </tr>
 <tr valign="top" class="Failure">
-<td><a href="#%E6%8C%89%E5%BC%80%E5%8D%95%E6%97%A5%E6%9C%9F%E6%9F%A5%E8%AF%A2--%E5%BE%85%E5%A6%82%E4%BD%95%E5%87%86%E5%A4%87%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%BC%80%E5%8D%95%E6%97%A5%E6%9C%9F%E4%B8%8E%E7%AD%BE%E6%94%B6%E6%97%A5%E6%9C%9F%E4%B8%8D%E5%90%8C%E8%A6%86%E7%9B%96">按开单日期查询--待如何准备测试数据，开单日期与签收日期不同覆盖</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">72 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_4')"><img src="expand.png" alt="expand/collapse" id="page_details_4_image"></a></td>
+<td><a href="#%E6%8C%89%E5%BC%80%E5%8D%95%E6%97%A5%E6%9C%9F%E6%9F%A5%E8%AF%A2--%E5%BE%85%E5%A6%82%E4%BD%95%E5%87%86%E5%A4%87%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%BC%80%E5%8D%95%E6%97%A5%E6%9C%9F%E4%B8%8E%E7%AD%BE%E6%94%B6%E6%97%A5%E6%9C%9F%E4%B8%8D%E5%90%8C%E8%A6%86%E7%9B%96">按开单日期查询--待如何准备测试数据，开单日期与签收日期不同覆盖</a></td><td align="center">1</td><td align="center">1</td><td align="right">0.00%</td><td align="right">15 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_22')"><img src="expand.png" alt="expand/collapse" id="page_details_22_image"></a></td>
 </tr>
-<tr class="page_details" id="page_details_4">
+<tr class="page_details" id="page_details_22">
 <td colspan="8" bgcolor="#FF0000">
 <div align="center">
 <b>Details for Page "按开单日期查询--待如何准备测试数据，开单日期与签收日期不同覆盖"</b>
@@ -180,16 +594,16 @@
 <th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">72</td><td align="right">281</td><td align="center">false</td>
+<td>签收明细查询api 4-1</td><td align="center">1</td><td align="right">15</td><td align="right">279</td><td align="center">false</td>
 </tr>
 </table>
 </div>
 </td>
 </tr>
 <tr valign="top" class="Failure">
-<td><a href="#%E6%8C%89%E5%85%B6%E4%BB%96%E7%AD%9B%E9%80%89%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2">按其他筛选条件查询</a></td><td align="center">13</td><td align="center">2</td><td align="right">84.62%</td><td align="right">143 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_5')"><img src="expand.png" alt="expand/collapse" id="page_details_5_image"></a></td>
+<td><a href="#%E6%8C%89%E5%85%B6%E4%BB%96%E7%AD%9B%E9%80%89%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2">按其他筛选条件查询</a></td><td align="center">13</td><td align="center">13</td><td align="right">0.00%</td><td align="right">12 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_23')"><img src="expand.png" alt="expand/collapse" id="page_details_23_image"></a></td>
 </tr>
-<tr class="page_details" id="page_details_5">
+<tr class="page_details" id="page_details_23">
 <td colspan="8" bgcolor="#FF0000">
 <div align="center">
 <b>Details for Page "按其他筛选条件查询"</b>
@@ -198,91 +612,43 @@
 <th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">106</td><td align="right">281</td><td align="center">false</td>
+<td>签收明细查询api 4-1</td><td align="center">1</td><td align="right">27</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">2</td><td align="right">154</td><td align="right">17999</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">2</td><td align="right">11</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">3</td><td align="right">211</td><td align="right">17999</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">3</td><td align="right">9</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">4</td><td align="right">141</td><td align="right">17999</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">4</td><td align="right">6</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">5</td><td align="right">139</td><td align="right">281</td><td align="center">false</td>
+<td>签收明细查询api 4-1</td><td align="center">5</td><td align="right">9</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">6</td><td align="right">159</td><td align="right">17999</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">6</td><td align="right">7</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">7</td><td align="right">155</td><td align="right">9119</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">7</td><td align="right">15</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">8</td><td align="right">199</td><td align="right">17999</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">8</td><td align="right">10</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">9</td><td align="right">146</td><td align="right">17999</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">9</td><td align="right">10</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">10</td><td align="right">126</td><td align="right">18007</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">10</td><td align="right">9</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">11</td><td align="right">106</td><td align="right">17999</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">11</td><td align="right">22</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">12</td><td align="right">127</td><td align="right">17999</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">12</td><td align="right">19</td><td align="right">279</td><td align="center">false</td>
 </tr>
 <tr>
-<td>签收明细查询api 1-1</td><td align="center">13</td><td align="right">93</td><td align="right">13590</td><td align="center">true</td>
-</tr>
-</table>
-</div>
-</td>
-</tr>
-<tr valign="top" class="">
-<td>合计接口校验</td><td align="center">11</td><td align="center">0</td><td align="right">100.00%</td><td align="right">102 ms</td><td align="right">NaN</td><td align="right">NaN</td><td align="center"><a href="javascript:change('page_details_6')"><img src="expand.png" alt="expand/collapse" id="page_details_6_image"></a></td>
-</tr>
-<tr class="page_details" id="page_details_6">
-<td colspan="8" bgcolor="#FF0000">
-<div align="center">
-<b>Details for Page "合计接口校验"</b>
-<table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
-<tr>
-<th>Thread</th><th>Iteration</th><th>Time (milliseconds)</th><th>Bytes</th><th>Success</th>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">1</td><td align="right">68</td><td align="right">831</td><td align="center">true</td>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">2</td><td align="right">70</td><td align="right">831</td><td align="center">true</td>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">3</td><td align="right">65</td><td align="right">831</td><td align="center">true</td>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">4</td><td align="right">430</td><td align="right">831</td><td align="center">true</td>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">5</td><td align="right">79</td><td align="right">831</td><td align="center">true</td>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">6</td><td align="right">70</td><td align="right">831</td><td align="center">true</td>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">7</td><td align="right">54</td><td align="right">831</td><td align="center">true</td>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">8</td><td align="right">68</td><td align="right">831</td><td align="center">true</td>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">9</td><td align="right">62</td><td align="right">831</td><td align="center">true</td>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">10</td><td align="right">88</td><td align="right">831</td><td align="center">true</td>
-</tr>
-<tr>
-<td>签收明细查询api 1-1</td><td align="center">11</td><td align="right">72</td><td align="right">831</td><td align="center">true</td>
+<td>签收明细查询api 4-1</td><td align="center">13</td><td align="right">8</td><td align="right">279</td><td align="center">false</td>
 </tr>
 </table>
 </div>
@@ -291,6 +657,16 @@
 </table>
 <hr size="1" width="95%" align="center">
 <h2>Failure Detail</h2>
+<h3>按签收日期查询<a name="%E6%8C%89%E7%AD%BE%E6%94%B6%E6%97%A5%E6%9C%9F%E6%9F%A5%E8%AF%A2"></a>
+</h3>
+<table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Response</th><th>Failure Message</th>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   import java.util.Da . . . '' : TargetError</td>
+</tr>
+</table>
 <h3>按开单日期查询--待如何准备测试数据，开单日期与签收日期不同覆盖<a name="%E6%8C%89%E5%BC%80%E5%8D%95%E6%97%A5%E6%9C%9F%E6%9F%A5%E8%AF%A2--%E5%BE%85%E5%A6%82%E4%BD%95%E5%87%86%E5%A4%87%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%BC%80%E5%8D%95%E6%97%A5%E6%9C%9F%E4%B8%8E%E7%AD%BE%E6%94%B6%E6%97%A5%E6%9C%9F%E4%B8%8D%E5%90%8C%E8%A6%86%E7%9B%96"></a>
 </h3>
 <table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
@@ -298,7 +674,7 @@
 <th>Response</th><th>Failure Message</th>
 </tr>
 <tr>
-<td>200 - OK</td><td>无测试数据，请确认</td>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   import java.util.Da . . . '' : TargetError</td>
 </tr>
 </table>
 <h3>按其他筛选条件查询<a name="%E6%8C%89%E5%85%B6%E4%BB%96%E7%AD%9B%E9%80%89%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2"></a>
@@ -308,10 +684,43 @@
 <th>Response</th><th>Failure Message</th>
 </tr>
 <tr>
-<td>200 - OK</td><td>无测试数据，请确认</td>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
 </tr>
 <tr>
-<td>200 - OK</td><td>无测试数据，请确认</td>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
+</tr>
+<tr>
+<td>200 - OK</td><td>org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import org.json.JSONObject;     import org.json.JSONArray;   try {     String re . . . '' : TargetError</td>
 </tr>
 </table>
 </body>
