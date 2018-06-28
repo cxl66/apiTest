@@ -161,7 +161,7 @@ String pzRowNum1;
 int pzRowNum=0;
 try
 {
-	BufferedReader br=new BufferedReader(new FileReader(&quot;.\\resources\\修改配载保存.csv&quot;));
+	BufferedReader br=new BufferedReader(new FileReader(&quot;..\\resources\\修改配载保存.csv&quot;));
 	String tmpStr=&quot;&quot;;
 	
 	while((tmpStr=br.readLine())!=null)
@@ -173,6 +173,7 @@ try
 catch (IOException ioe)
 {
 	ioe.printStackTrace();
+	log.info(&quot;查找文件出错！&quot;);
 }
 vars.put(&quot;pzRowNum1&quot;,String.valueOf(pzRowNum));</stringProp>
           <stringProp name="BeanShellSampler.filename"></stringProp>
