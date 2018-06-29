@@ -322,10 +322,23 @@ else
 String freight1=vars.get(&quot;freight1&quot;);
 String freight2=vars.get(&quot;freight2&quot;);
 //总运费返回带小数，所以转换成float
-float freight3=Float.parseFloat(freight1);
-float freight4=Float.parseFloat(freight2);
-float freight=freight4-freight3;
-log.info(&quot;--------查询批次号--------&quot;);
+float freight3;
+float freight4;
+float freight;
+//当天的营收汇总为空时，开单前运费汇总为0
+if(!freight1.equals(&quot;ERROR&quot;))
+{
+	freight3=Float.parseFloat(freight1);
+	freight4=Float.parseFloat(freight2);
+	freight=freight4-freight3;
+	
+}
+else
+{
+	freight4=Float.parseFloat(freight2);
+	freight=freight4-freight3;
+}
+
 if(status.equals(&quot;200&quot;) &amp;&amp; freight==251)
 {
 	Failure = false; 
@@ -336,7 +349,8 @@ else
 	Failure = true; 
 	FailureMessage = &quot;营收汇总查询失败或者总运费不正确&quot;;
 	log.info(&quot;~~~~~~~~~~错误原因：&quot;+FailureMessage+&quot;~~~~~~~~~~~~~~~~~~~~~~~~~~&quot;);
-}</stringProp>
+}
+</stringProp>
               <stringProp name="BeanShellAssertion.filename"></stringProp>
               <stringProp name="BeanShellAssertion.parameters"></stringProp>
               <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
