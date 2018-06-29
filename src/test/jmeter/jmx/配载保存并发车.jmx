@@ -152,7 +152,7 @@ else
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="获取文件行数" enabled="true">
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="获取文件行数" enabled="false">
           <stringProp name="BeanShellSampler.query">import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -162,11 +162,11 @@ int pzRowNum=0;
 try
 {
 	//获取当前根目录
-//	String root = System.getProperty(&quot;user.dir&quot;);
-//	String filePath=root +  &quot;\\resources\\单条配载保存并发车.csv&quot;;
-//	String filePath1=filePath.replace(&quot;\\&quot;,&quot;\\\\&quot;);
+	//String root = System.getProperty(&quot;user.dir&quot;);
+	//String filePath=root +  &quot;\\resource\\单条配载保存并发车.csv&quot;;
+	//String filePath1=filePath.replace(&quot;\\&quot;,&quot;\\\\&quot;);
 	//log.info(&quot;!!!!!!!!!!!!!!!!!!!!!!&quot;+filePath1);
-	
+	//String filePath=this.getClass().getResource(&quot;/单条配载保存并发车.csv&quot;).toString();
 	BufferedReader br=new BufferedReader(new FileReader(&quot;.\\resources\\单条配载保存并发车.csv&quot;));
 	String tmpStr=&quot;&quot;;
 	while((tmpStr=br.readLine())!=null)
@@ -185,11 +185,22 @@ vars.put(&quot;pzRowNum1&quot;,String.valueOf(pzRowNum));</stringProp>
           <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
         </BeanShellSampler>
         <hashTree/>
-        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="单条配载-保存并发车" enabled="true">
-          <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">${pzRowNum1}</stringProp>
-        </LoopController>
+        <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="true">
+          <stringProp name="WhileController.condition">${__jexl3(&quot;${dtpzfcId}&quot; != &quot;&lt;EOF&gt;&quot;)}</stringProp>
+        </WhileController>
         <hashTree>
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="单条配载数据" enabled="true">
+            <stringProp name="delimiter">,</stringProp>
+            <stringProp name="fileEncoding">GB2312</stringProp>
+            <stringProp name="filename">..\resources\单条配载保存并发车.csv</stringProp>
+            <boolProp name="ignoreFirstLine">true</boolProp>
+            <boolProp name="quotedData">false</boolProp>
+            <boolProp name="recycle">false</boolProp>
+            <stringProp name="shareMode">shareMode.all</stringProp>
+            <boolProp name="stopThread">true</boolProp>
+            <stringProp name="variableNames"></stringProp>
+          </CSVDataSet>
+          <hashTree/>
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="开单数据" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding">GB2312</stringProp>
@@ -198,7 +209,7 @@ vars.put(&quot;pzRowNum1&quot;,String.valueOf(pzRowNum));</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
-            <boolProp name="stopThread">false</boolProp>
+            <boolProp name="stopThread">true</boolProp>
             <stringProp name="variableNames"></stringProp>
           </CSVDataSet>
           <hashTree/>
@@ -262,7 +273,7 @@ else
             <boolProp name="IfController.evaluateAll">false</boolProp>
           </IfController>
           <hashTree>
-            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="单条配载数据" enabled="true">
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="单条配载数据" enabled="false">
               <stringProp name="delimiter">,</stringProp>
               <stringProp name="fileEncoding">GB2312</stringProp>
               <stringProp name="filename">..\resources\单条配载保存并发车.csv</stringProp>
@@ -395,6 +406,31 @@ else
             </hashTree>
           </hashTree>
         </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="批量、合并配载保存并发车" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="循环控制器" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1530263904000</longProp>
+        <longProp name="ThreadGroup.end_time">1530263904000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+          <collectionProp name="HeaderManager.headers">
+            <elementProp name="User-Agent" elementType="Header">
+              <stringProp name="Header.name">cookie</stringProp>
+              <stringProp name="Header.value">tkey=${__property(tokenValue)}</stringProp>
+            </elementProp>
+          </collectionProp>
+        </HeaderManager>
+        <hashTree/>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="批量配载-保存并发车" enabled="true">
           <stringProp name="TestPlan.comments">5条运单批量配载</stringProp>
         </GenericController>
