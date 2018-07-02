@@ -80,7 +80,7 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="登录" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="登录" enabled="false"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="登录-宁波北仑" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -138,7 +138,7 @@ else
             <hashTree/>
           </hashTree>
         </hashTree>
-        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="false">
           <collectionProp name="HeaderManager.headers">
             <elementProp name="User-Agent" elementType="Header">
               <stringProp name="Header.name">cookie</stringProp>
@@ -147,7 +147,7 @@ else
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="获取文件行数" enabled="true">
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="获取文件行数" enabled="false">
           <stringProp name="BeanShellSampler.query">import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -175,10 +175,9 @@ vars.put(&quot;pzRowNum1&quot;,String.valueOf(pzRowNum));</stringProp>
           <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
         </BeanShellSampler>
         <hashTree/>
-        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="取消发车" enabled="true">
-          <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">${pzRowNum1}</stringProp>
-        </LoopController>
+        <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="true">
+          <stringProp name="WhileController.condition">${__jexl3(&quot;${qxfcpzId}&quot; != &quot;&lt;EOF&gt;&quot;)}</stringProp>
+        </WhileController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="登录-宁波北仑" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -256,6 +255,18 @@ else
             <stringProp name="variableNames"></stringProp>
           </CSVDataSet>
           <hashTree/>
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="配载数据" enabled="true">
+            <stringProp name="delimiter">,</stringProp>
+            <stringProp name="fileEncoding">GB2312</stringProp>
+            <stringProp name="filename">..\resources\取消发车-配载.csv</stringProp>
+            <boolProp name="ignoreFirstLine">true</boolProp>
+            <boolProp name="quotedData">false</boolProp>
+            <boolProp name="recycle">false</boolProp>
+            <stringProp name="shareMode">shareMode.all</stringProp>
+            <boolProp name="stopThread">true</boolProp>
+            <stringProp name="variableNames"></stringProp>
+          </CSVDataSet>
+          <hashTree/>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="开单" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -317,18 +328,6 @@ else
             <stringProp name="TestPlan.comments">如果开单成功，则执行配载</stringProp>
           </IfController>
           <hashTree>
-            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="配载数据" enabled="true">
-              <stringProp name="delimiter">,</stringProp>
-              <stringProp name="fileEncoding">GB2312</stringProp>
-              <stringProp name="filename">..\resources\取消发车-配载.csv</stringProp>
-              <boolProp name="ignoreFirstLine">true</boolProp>
-              <boolProp name="quotedData">false</boolProp>
-              <boolProp name="recycle">true</boolProp>
-              <stringProp name="shareMode">shareMode.all</stringProp>
-              <boolProp name="stopThread">true</boolProp>
-              <stringProp name="variableNames"></stringProp>
-            </CSVDataSet>
-            <hashTree/>
             <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="查询运单id" enabled="true">
               <stringProp name="dataSource">mysql</stringProp>
               <stringProp name="queryType">Select Statement</stringProp>
@@ -352,7 +351,7 @@ vars.put(&quot;id1&quot;,id1.toString());</stringProp>
               </BeanShellPostProcessor>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="配载-${testcase}" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="数据准备-配载" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
@@ -766,7 +765,7 @@ else
                 </HeaderManager>
                 <hashTree/>
               </hashTree>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="取消发车" enabled="true">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="取消发车-${testcase}" enabled="true">
                 <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                   <collectionProp name="Arguments.arguments">

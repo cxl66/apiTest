@@ -152,7 +152,7 @@ else
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="获取文件行数" enabled="true">
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="获取文件行数" enabled="false">
           <stringProp name="BeanShellSampler.query">import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -180,10 +180,9 @@ vars.put(&quot;pzRowNum1&quot;,String.valueOf(pzRowNum));</stringProp>
           <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
         </BeanShellSampler>
         <hashTree/>
-        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="修改配载-保存并发车" enabled="true">
-          <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">${pzRowNum1}</stringProp>
-        </LoopController>
+        <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="true">
+          <stringProp name="WhileController.condition">${__jexl3(&quot;${xgpzfcId}&quot; != &quot;&lt;EOF&gt;&quot;)}</stringProp>
+        </WhileController>
         <hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="数据准备-开单配载" enabled="true"/>
           <hashTree>
@@ -396,13 +395,13 @@ else
             <boolProp name="IfController.evaluateAll">false</boolProp>
           </IfController>
           <hashTree>
-            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="修改配载保存数据" enabled="true">
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="修改配载保存并发车数据" enabled="true">
               <stringProp name="delimiter">,</stringProp>
               <stringProp name="fileEncoding">GB2312</stringProp>
               <stringProp name="filename">..\resources\修改配载保存并发车.csv</stringProp>
               <boolProp name="ignoreFirstLine">true</boolProp>
               <boolProp name="quotedData">false</boolProp>
-              <boolProp name="recycle">true</boolProp>
+              <boolProp name="recycle">false</boolProp>
               <stringProp name="shareMode">shareMode.all</stringProp>
               <boolProp name="stopThread">true</boolProp>
               <stringProp name="variableNames"></stringProp>
@@ -494,7 +493,7 @@ else
                 <hashTree/>
               </hashTree>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="修改配载-${testcase}" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="修改配载保存并发车-${testcase}" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
