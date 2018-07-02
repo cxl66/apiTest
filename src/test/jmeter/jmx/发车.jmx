@@ -292,7 +292,7 @@ vars.put(&quot;id1&quot;,id1.toString());</stringProp>
               </BeanShellPostProcessor>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="配载-${testcase}" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="数据准备配载" enabled="true">
               <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                 <collectionProp name="Arguments.arguments">
@@ -391,7 +391,7 @@ else
               <boolProp name="IfController.evaluateAll">false</boolProp>
             </IfController>
             <hashTree>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="发车" enabled="true">
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="发车-${testcase}" enabled="true">
                 <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
                 <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
                   <collectionProp name="Arguments.arguments">
