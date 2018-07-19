@@ -1,1 +1,1 @@
-ktms-dev.kuaihuoyun.com,false
+ktms-dev.kuaihuoyun.com,false,..\\testFiles\\resources\\
