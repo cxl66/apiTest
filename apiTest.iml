@@ -9,12 +9,21 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://G:/Program Files/apache-jmeter-3.3/lib/json.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.45" level="project" />
     <orderEntry type="library" name="Maven: net.sf.saxon:saxon:8.7" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://G:/Program Files/apache-jmeter-3.3/lib/json.jar!/" />
+          <root url="jar://E:/project/khy/out/artifacts/khy_jar/khy.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
