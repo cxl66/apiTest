@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="86" it="0" lt="86" ct="46" ts="1532951474573" s="true" lb="HTTP请求" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="526" sby="428" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951474707" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="320" it="0" lt="320" ct="0" ts="1532951474718" s="true" lb="HTTP请求" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="256" sby="1311" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="233" it="0" lt="233" ct="0" ts="1532951476181" s="true" lb="HTTP请求" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="256" sby="1311" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="261" it="0" lt="260" ct="6" ts="1532951476725" s="true" lb="HTTP请求" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="256" sby="1311" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="256" it="0" lt="256" ct="0" ts="1532951477281" s="true" lb="HTTP请求" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="256" sby="1312" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="241" it="0" lt="241" ct="0" ts="1532951477872" s="true" lb="HTTP请求" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="256" sby="1311" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="90" it="0" lt="74" ct="14" ts="1532951478879" s="true" lb="HTTP请求" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="91385" sby="446" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951479009" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="75" it="0" lt="75" ct="0" ts="1532951479101" s="true" lb="HTTP请求" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="1914" sby="429" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>回单缴款成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951479223" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="40" it="0" lt="40" ct="0" ts="1532951479226" s="true" lb="HTTP请求" rc="200" rm="OK" tn="回单缴款 1-1" dt="text" by="6067" sby="381" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>回单回单返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+
+</testResults>

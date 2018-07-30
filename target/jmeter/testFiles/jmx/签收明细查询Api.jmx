@@ -2398,7 +2398,7 @@ else{
         <stringProp name="TestPlan.comments">reportSignoffDetail.getSignoffDetail</stringProp>
       </ThreadGroup>
       <hashTree>
-        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="false">
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">cookie</stringProp>
@@ -2407,7 +2407,7 @@ else{
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="登录" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="登录" enabled="true"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="登陆" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
@@ -2835,7 +2835,7 @@ catch (Throwable ex) {
             <stringProp name="filename"></stringProp>
           </ResultCollector>
           <hashTree/>
-          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="若查询有结果则校验合计项是否正确" enabled="true">
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="若查询有结果则校验合计项是否正确" enabled="false">
             <stringProp name="IfController.condition">${__jexl3(${getDataNum}!=0,)}</stringProp>
             <boolProp name="IfController.evaluateAll">false</boolProp>
           </IfController>

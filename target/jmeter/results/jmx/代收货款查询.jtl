@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="135" it="0" lt="135" ct="87" ts="1532951314834" s="true" lb="登录发站成功" rc="200" rm="OK" tn="发站登录 1-1" dt="text" by="528" sby="369" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951315010" s="true" lb="token，cid，oid，eid保存为全局变量" rc="200" rm="OK" tn="发站登录 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="242" it="0" lt="242" ct="9" ts="1532951315074" s="true" lb="开单成功" rc="200" rm="OK" tn="开单 2-1" dt="text" by="256" sby="1258" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="49" it="0" lt="49" ct="0" ts="1532951315336" s="true" lb="开单记录查询" rc="200" rm="OK" tn="开单 2-1" dt="text" by="4021" sby="539" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951315390" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="开单 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="76" it="0" lt="76" ct="25" ts="1532951316398" s="true" lb="代收货款查询" rc="200" rm="OK" tn="代收货款查询 3-1" dt="text" by="4717" sby="626" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>

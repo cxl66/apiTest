@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="85" it="0" lt="84" ct="47" ts="1532951364170" s="true" lb="登录发站成功" rc="200" rm="OK" tn="发站登录 1-1" dt="text" by="528" sby="369" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951364292" s="true" lb="token，cid，oid，eid保存为全局变量" rc="200" rm="OK" tn="发站登录 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="241" it="0" lt="241" ct="7" ts="1532951364310" s="true" lb="开单成功" rc="200" rm="OK" tn="开单 2-1" dt="text" by="256" sby="1258" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="0" ts="1532951364571" s="true" lb="开单记录查询" rc="200" rm="OK" tn="开单 2-1" dt="text" by="4021" sby="539" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1532951364620" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="开单 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="141" it="0" lt="141" ct="7" ts="1532951364642" s="true" lb="配载发车" rc="200" rm="OK" tn="配载 3-1" dt="text" by="245" sby="549" ng="1" na="1"/>
+<httpSample t="26" it="0" lt="26" ct="0" ts="1532951364784" s="true" lb="获取批次id" rc="200" rm="OK" tn="配载 3-1" dt="text" by="1990" sby="381" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951364812" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="配载 3-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="32" it="0" lt="32" ct="8" ts="1532951364831" s="true" lb="到站登录" rc="200" rm="OK" tn="无账户到站登录 4-1" dt="text" by="527" sby="368" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951364865" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="无账户到站登录 4-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="136" it="0" lt="136" ct="6" ts="1532951364871" s="true" lb="到车" rc="200" rm="OK" tn="到车、签收 5-1" dt="text" by="245" sby="364" ng="1" na="1"/>
+<httpSample t="148" it="0" lt="148" ct="0" ts="1532951365009" s="true" lb="签收" rc="200" rm="OK" tn="到车、签收 5-1" dt="text" by="331" sby="510" ng="1" na="1"/>
+<httpSample t="61" it="0" lt="61" ct="5" ts="1532951365202" s="true" lb="查询货款上缴运单" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 6-1" dt="text" by="5558" sby="384" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="85" it="0" lt="84" ct="0" ts="1532951365268" s="true" lb="上缴货款" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 6-1" dt="text" by="1842" sby="419" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>缴款成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951365602" s="true" lb="获取缴款批次id" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 6-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="73" it="0" lt="73" ct="0" ts="1532951365602" s="true" lb="代收货款核销" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 6-1" dt="text" by="245" sby="453" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>核销成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="786" it="0" lt="785" ct="765" ts="1532951365740" s="true" lb="JDBC Request" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 6-1" dt="text" by="10" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>转账断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>转账</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="16" it="0" lt="13" ct="0" ts="1532951366624" s="true" lb="JDBC Request" rc="200" rm="OK" tn="卡类发放成功 7-1" dt="text" by="21" sby="0" ng="1" na="1"/>
+<httpSample t="114" it="0" lt="113" ct="6" ts="1532951366641" s="true" lb="发放成功" rc="200" rm="OK" tn="卡类发放成功 7-1" dt="text" by="245" sby="594" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>核销成功</failureMessage>
+  </assertionResult>
+</httpSample>
+
+</testResults>

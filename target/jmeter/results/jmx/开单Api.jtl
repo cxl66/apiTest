@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="177" it="0" lt="176" ct="80" ts="1530008779993" s="true" lb="登陆提取token" rc="200" rm="OK" tn="获取token 1-1" dt="text" by="524" sby="390" ng="1" na="1">
+<httpSample t="93" it="0" lt="92" ct="46" ts="1532951435048" s="true" lb="登陆提取token" rc="200" rm="OK" tn="获取token 1-1" dt="text" by="524" sby="390" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -8,8 +8,8 @@
     <failureMessage>获取token成功</failureMessage>
   </assertionResult>
 </httpSample>
-<sample t="1" it="0" lt="0" ct="0" ts="1530008780241" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="获取token 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="73" it="0" lt="73" ct="40" ts="1530008780357" s="true" lb="登陆提取token" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="524" sby="388" ng="1" na="1">
+<sample t="0" it="0" lt="0" ct="0" ts="1532951435190" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="获取token 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="34" it="0" lt="34" ct="6" ts="1532951435250" s="true" lb="登陆提取token" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="524" sby="388" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -17,7 +17,7 @@
     <failureMessage>获取token成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="332" it="0" lt="332" ct="0" ts="1530008780444" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1255" ng="1" na="1">
+<httpSample t="225" it="0" lt="225" ct="0" ts="1532951435294" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1255" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -25,7 +25,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="285" it="0" lt="285" ct="0" ts="1530008781458" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1255" ng="1" na="1">
+<httpSample t="239" it="0" lt="239" ct="0" ts="1532951436080" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1255" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -33,7 +33,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="249" it="0" lt="249" ct="0" ts="1530008782082" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1267" ng="1" na="1">
+<httpSample t="226" it="0" lt="226" ct="0" ts="1532951436693" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1267" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -41,7 +41,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="404" it="0" lt="404" ct="15" ts="1530008782770" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1268" ng="1" na="1">
+<httpSample t="257" it="0" lt="256" ct="0" ts="1532951437233" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1268" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -49,7 +49,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="242" it="0" lt="242" ct="0" ts="1530008783543" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1255" ng="1" na="1">
+<httpSample t="230" it="0" lt="230" ct="8" ts="1532951437862" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1255" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -57,7 +57,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="1359" it="0" lt="1359" ct="0" ts="1530008784203" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1255" ng="1" na="1">
+<httpSample t="258" it="0" lt="258" ct="0" ts="1532951438406" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1255" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -65,7 +65,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="303" it="0" lt="303" ct="34" ts="1530008786045" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1256" ng="1" na="1">
+<httpSample t="221" it="0" lt="221" ct="0" ts="1532951439023" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1256" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -73,7 +73,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="369" it="0" lt="368" ct="0" ts="1530008786696" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1263" ng="1" na="1">
+<httpSample t="278" it="0" lt="278" ct="0" ts="1532951439544" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1263" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -81,7 +81,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="503" it="0" lt="503" ct="0" ts="1530008787586" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1257" ng="1" na="1">
+<httpSample t="242" it="0" lt="242" ct="10" ts="1532951440099" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1257" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -89,7 +89,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="344" it="0" lt="343" ct="5" ts="1530008788487" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1263" ng="1" na="1">
+<httpSample t="228" it="0" lt="228" ct="0" ts="1532951440733" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="256" sby="1263" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -97,8 +97,8 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<sample t="1" it="0" lt="0" ct="0" ts="1530008789211" s="true" lb="获取预期message" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="208" it="0" lt="208" ct="0" ts="1530008789213" s="true" lb="开单失败(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="324" sby="1274" ng="1" na="1">
+<sample t="1" it="0" lt="0" ct="0" ts="1532951441259" s="true" lb="获取预期message" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="109" it="0" lt="108" ct="0" ts="1532951441261" s="true" lb="开单失败(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="324" sby="1274" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -106,8 +106,8 @@
     <failureMessage>接口返回提示信息正确</failureMessage>
   </assertionResult>
 </httpSample>
-<sample t="2" it="0" lt="0" ct="0" ts="1530008789427" s="true" lb="获取预期message" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="63" it="0" lt="63" ct="0" ts="1530008789430" s="true" lb="开单失败(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="276" sby="1270" ng="1" na="1">
+<sample t="1" it="0" lt="0" ct="0" ts="1532951441376" s="true" lb="获取预期message" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1532951441378" s="true" lb="开单失败(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="276" sby="1270" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -115,8 +115,8 @@
     <failureMessage>接口返回提示信息正确</failureMessage>
   </assertionResult>
 </httpSample>
-<sample t="1" it="0" lt="0" ct="0" ts="1530008789497" s="true" lb="获取预期message" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
-<httpSample t="231" it="0" lt="231" ct="0" ts="1530008789499" s="true" lb="开单失败(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="270" sby="1257" ng="1" na="1">
+<sample t="1" it="0" lt="0" ct="0" ts="1532951441444" s="true" lb="获取预期message" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="101" it="0" lt="100" ct="0" ts="1532951441446" s="true" lb="开单失败(order.create)" rc="200" rm="OK" tn="开单api 2-1" dt="text" by="270" sby="1257" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -124,7 +124,7 @@
     <failureMessage>接口返回提示信息正确</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="49" it="0" lt="49" ct="9" ts="1530008789787" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="547" sby="420" ng="1" na="1">
+<httpSample t="44" it="0" lt="44" ct="11" ts="1532951441597" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="547" sby="420" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -132,7 +132,7 @@
     <failureMessage>获取token成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="296" it="0" lt="296" ct="0" ts="1530008789841" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1270" ng="1" na="1">
+<httpSample t="300" it="0" lt="300" ct="0" ts="1532951441647" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1270" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -140,7 +140,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="74" it="0" lt="69" ct="0" ts="1530008790811" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="13950" sby="525" ng="1" na="1">
+<httpSample t="66" it="0" lt="66" ct="0" ts="1532951442470" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="3069" sby="525" ng="1" na="1">
   <assertionResult>
     <name>判断运单应进入资金消费记录</name>
     <failure>false</failure>
@@ -148,7 +148,7 @@
     <failureMessage>进入资金消费记录</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="34" it="0" lt="34" ct="0" ts="1530008790898" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="547" sby="476" ng="1" na="1">
+<httpSample t="514" it="0" lt="514" ct="0" ts="1532951442546" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="547" sby="476" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -156,7 +156,7 @@
     <failureMessage>获取token成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="329" it="0" lt="329" ct="0" ts="1530008790934" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1271" ng="1" na="1">
+<httpSample t="250" it="0" lt="249" ct="0" ts="1532951443064" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1271" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -164,7 +164,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="53" it="0" lt="43" ct="0" ts="1530008791676" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="13953" sby="525" ng="1" na="1">
+<httpSample t="80" it="0" lt="80" ct="7" ts="1532951443691" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="3750" sby="525" ng="1" na="1">
   <assertionResult>
     <name>判断运单应进入资金消费记录</name>
     <failure>false</failure>
@@ -172,7 +172,7 @@
     <failureMessage>进入资金消费记录</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="28" it="0" lt="28" ct="0" ts="1530008791736" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="547" sby="476" ng="1" na="1">
+<httpSample t="44" it="0" lt="44" ct="0" ts="1532951443774" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="547" sby="476" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -180,7 +180,7 @@
     <failureMessage>获取token成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="252" it="0" lt="252" ct="0" ts="1530008791766" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1278" ng="1" na="1">
+<httpSample t="246" it="0" lt="246" ct="0" ts="1532951443819" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1278" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -188,7 +188,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="115" it="0" lt="115" ct="42" ts="1530008792432" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="13953" sby="525" ng="1" na="1">
+<httpSample t="60" it="0" lt="60" ct="0" ts="1532951444373" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="4435" sby="525" ng="1" na="1">
   <assertionResult>
     <name>判断运单应进入资金消费记录</name>
     <failure>false</failure>
@@ -196,7 +196,7 @@
     <failureMessage>进入资金消费记录</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="30" it="0" lt="30" ct="0" ts="1530008792563" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="547" sby="476" ng="1" na="1">
+<httpSample t="517" it="0" lt="517" ct="0" ts="1532951444444" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="547" sby="476" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -204,7 +204,7 @@
     <failureMessage>获取token成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="299" it="0" lt="298" ct="0" ts="1530008792603" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1270" ng="1" na="1">
+<httpSample t="224" it="0" lt="224" ct="0" ts="1532951444965" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1270" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -212,7 +212,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="53" it="0" lt="47" ct="0" ts="1530008793330" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="13953" sby="525" ng="1" na="1">
+<httpSample t="57" it="0" lt="51" ct="0" ts="1532951445489" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="4435" sby="525" ng="1" na="1">
   <assertionResult>
     <name>判断运单不应进入资金消费记录</name>
     <failure>false</failure>
@@ -220,7 +220,7 @@
     <failureMessage>未进入资金消费记录</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="38" it="0" lt="38" ct="0" ts="1530008793394" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="524" sby="444" ng="1" na="1">
+<httpSample t="24" it="0" lt="24" ct="0" ts="1532951445551" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="524" sby="444" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -228,7 +228,7 @@
     <failureMessage>获取token成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="283" it="0" lt="283" ct="0" ts="1530008793437" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1255" ng="1" na="1">
+<httpSample t="276" it="0" lt="276" ct="0" ts="1532951445579" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1255" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -236,7 +236,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="40" it="0" lt="40" ct="0" ts="1530008794146" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="352" sby="520" ng="1" na="1">
+<httpSample t="38" it="0" lt="37" ct="7" ts="1532951446119" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="352" sby="520" ng="1" na="1">
   <assertionResult>
     <name>判断运单不应进入资金消费记录</name>
     <failure>false</failure>
@@ -244,7 +244,7 @@
     <failureMessage>未进入资金消费记录</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="27" it="0" lt="27" ct="0" ts="1530008794190" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="524" sby="444" ng="1" na="1">
+<httpSample t="23" it="0" lt="22" ct="0" ts="1532951446161" s="true" lb="登陆提取token" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="524" sby="444" ng="1" na="1">
   <assertionResult>
     <name>BeanShell断言</name>
     <failure>false</failure>
@@ -252,7 +252,7 @@
     <failureMessage>获取token成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="225" it="0" lt="225" ct="0" ts="1530008794220" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1255" ng="1" na="1">
+<httpSample t="213" it="0" lt="213" ct="0" ts="1532951446186" s="true" lb="开单成功(order.create)" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="256" sby="1255" ng="1" na="1">
   <assertionResult>
     <name>结果校验</name>
     <failure>false</failure>
@@ -260,7 +260,7 @@
     <failureMessage>开单写入数据库成功</failureMessage>
   </assertionResult>
 </httpSample>
-<httpSample t="51" it="0" lt="51" ct="6" ts="1530008794966" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="352" sby="520" ng="1" na="1">
+<httpSample t="33" it="0" lt="33" ct="0" ts="1532951446765" s="true" lb="资金消费查询" rc="200" rm="OK" tn="不同账户类型开单 3-1" dt="text" by="352" sby="520" ng="1" na="1">
   <assertionResult>
     <name>判断运单不应进入资金消费记录</name>
     <failure>false</failure>

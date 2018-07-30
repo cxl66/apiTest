@@ -121,7 +121,7 @@ vars.put(&quot;pzRowNum1&quot;,String.valueOf(pzRowNum));</stringProp>
         </BeanShellSampler>
         <hashTree/>
         <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="获取测试账号" enabled="true">
-          <stringProp name="BeanShellSampler.query">import com.khy.apitest.*;
+          <stringProp name="BeanShellSampler.query">import com.khy.*;
 
 //String cur=new GetFilePath().getCurrentPath();
 //String cur=System.getProperty(&quot;user.dir&quot;);

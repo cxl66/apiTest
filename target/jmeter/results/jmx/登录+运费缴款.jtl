@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="94" it="0" lt="93" ct="51" ts="1532951483288" s="true" lb="HTTP请求" rc="200" rm="OK" tn="运费缴款 1-1" dt="text" by="526" sby="428" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951483430" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="运费缴款 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="232" it="0" lt="231" ct="0" ts="1532951483438" s="true" lb="HTTP请求" rc="200" rm="OK" tn="运费缴款 1-1" dt="text" by="256" sby="1311" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>开单写入数据库成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="89" it="0" lt="69" ct="0" ts="1532951484134" s="true" lb="HTTP请求" rc="200" rm="OK" tn="运费缴款 1-1" dt="text" by="64778" sby="437" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951484265" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="运费缴款 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="147" it="0" lt="147" ct="0" ts="1532951484374" s="true" lb="HTTP请求" rc="200" rm="OK" tn="运费缴款 1-1" dt="text" by="1880" sby="443" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>缴款成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951484738" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="运费缴款 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="95" it="0" lt="85" ct="0" ts="1532951484747" s="true" lb="HTTP请求" rc="200" rm="OK" tn="运费缴款 1-1" dt="text" by="71449" sby="381" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+
+</testResults>

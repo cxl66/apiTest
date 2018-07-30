@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="101" it="0" lt="100" ct="45" ts="1532951473019" s="true" lb="HTTP请求" rc="200" rm="OK" tn="上缴打款查询 1-1" dt="text" by="526" sby="428" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951473177" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="上缴打款查询 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="58" it="0" lt="46" ct="0" ts="1532951473178" s="true" lb="HTTP请求" rc="200" rm="OK" tn="上缴打款查询 1-1" dt="text" by="36971" sby="409" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951473257" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="上缴打款查询 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="94" it="0" lt="60" ct="0" ts="1532951473368" s="true" lb="HTTP请求" rc="200" rm="OK" tn="上缴打款查询 1-1" dt="text" by="61369" sby="381" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="81" it="0" lt="80" ct="0" ts="1532951473489" s="true" lb="HTTP请求" rc="200" rm="OK" tn="上缴打款查询 1-1" dt="text" by="245" sby="354" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="233" it="167" lt="186" ct="0" ts="1532951473178" s="true" lb="上缴打款查询" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="上缴打款查询 1-1" dt="" by="98585" sby="1144" ng="1" na="1"/>
+
+</testResults>

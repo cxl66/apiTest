@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="96" it="0" lt="96" ct="54" ts="1532951413418" s="true" lb="登录-宁波北仑" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="535" sby="359" ng="1" na="1">
+  <assertionResult>
+    <name>判断是否正确获取到newToken</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="330" it="0" lt="330" ct="0" ts="1532951413532" s="true" lb="开单" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="256" sby="1384" ng="1" na="1">
+  <assertionResult>
+    <name>判断是否正确获取到运单号</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1021" it="0" lt="1020" ct="920" ts="1532951413984" s="true" lb="查询运单id" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="10" sby="0" ng="1" na="1"/>
+<httpSample t="103" it="0" lt="103" ct="0" ts="1532951415016" s="true" lb="数据准备-配载" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="245" sby="647" ng="1" na="1"/>
+<sample t="18" it="0" lt="17" ct="0" ts="1532951415178" s="true" lb="查询批次号pcNum,id， 判断返回是否正确" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="55" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>判断配载是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</sample>
+<httpSample t="69" it="0" lt="69" ct="0" ts="1532951415203" s="true" lb="发车" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="245" sby="335" ng="1" na="1"/>
+<sample t="25" it="0" lt="25" ct="0" ts="1532951415274" s="true" lb="校验发车是否成功" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="9" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>判断发车是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</sample>
+<httpSample t="25" it="0" lt="24" ct="0" ts="1532951415316" s="true" lb="登录-宁波北仑" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="535" sby="412" ng="1" na="1">
+  <assertionResult>
+    <name>判断是否正确获取到newToken</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="60" it="0" lt="60" ct="0" ts="1532951415343" s="true" lb="取消发车-批次已发车" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="245" sby="342" ng="1" na="1"/>
+<sample t="20" it="0" lt="20" ct="0" ts="1532951415405" s="true" lb="校验取消发车是否成功" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="9" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>判断取消发车是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</sample>
+<httpSample t="29" it="0" lt="28" ct="0" ts="1532951415437" s="true" lb="登录-宁波北仑" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="535" sby="412" ng="1" na="1">
+  <assertionResult>
+    <name>判断是否正确获取到newToken</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="275" it="0" lt="275" ct="7" ts="1532951415471" s="true" lb="开单" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="256" sby="1384" ng="1" na="1">
+  <assertionResult>
+    <name>判断是否正确获取到运单号</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="86" it="0" lt="86" ct="0" ts="1532951415759" s="true" lb="查询运单id" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="10" sby="0" ng="1" na="1"/>
+<httpSample t="81" it="0" lt="81" ct="0" ts="1532951415848" s="true" lb="数据准备-配载" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="245" sby="647" ng="1" na="1"/>
+<sample t="19" it="0" lt="18" ct="0" ts="1532951415931" s="true" lb="查询批次号pcNum,id， 判断返回是否正确" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="55" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>判断配载是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</sample>
+<httpSample t="139" it="0" lt="139" ct="0" ts="1532951415967" s="true" lb="发车" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="245" sby="335" ng="1" na="1"/>
+<sample t="22" it="0" lt="22" ct="0" ts="1532951416107" s="true" lb="校验发车是否成功" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="9" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>判断发车是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</sample>
+<httpSample t="35" it="0" lt="35" ct="7" ts="1532951420143" s="true" lb="登录-杭州象山" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="535" sby="412" ng="1" na="1">
+  <assertionResult>
+    <name>判断是否正确获取到newToken</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="142" it="0" lt="142" ct="9" ts="1532951424184" s="true" lb="到车" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="245" sby="336" ng="1" na="1"/>
+<sample t="17" it="0" lt="17" ct="0" ts="1532951428328" s="true" lb="校验到车是否成功" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="9" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>判断到车是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</sample>
+<httpSample t="79" it="0" lt="79" ct="38" ts="1532951428355" s="true" lb="登录-宁波北仑" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="535" sby="412" ng="1" na="1">
+  <assertionResult>
+    <name>判断是否正确获取到newToken</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1532951428438" s="true" lb="取消发车-批次已到车" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="300" sby="342" ng="1" na="1"/>
+<sample t="40" it="0" lt="39" ct="0" ts="1532951428477" s="true" lb="校验取消发车是否成功" rc="200" rm="OK" tn="取消发车（allot.cancel_depart） 1-1" dt="text" by="9" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>判断取消发车是否成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</sample>
+
+</testResults>

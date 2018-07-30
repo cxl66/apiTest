@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="83" it="0" lt="82" ct="46" ts="1532951481796" s="true" lb="HTTP请求" rc="200" rm="OK" tn="运费到款核销 1-1" dt="text" by="526" sby="428" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951481928" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="运费到款核销 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="64" it="0" lt="57" ct="0" ts="1532951481929" s="true" lb="运费到款核销查询" rc="200" rm="OK" tn="运费到款核销 1-1" dt="text" by="33041" sby="433" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951482029" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="运费到款核销 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="62" it="0" lt="62" ct="0" ts="1532951482110" s="true" lb="HTTP请求" rc="200" rm="OK" tn="运费到款核销 1-1" dt="text" by="6069" sby="383" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="18" it="0" lt="18" ct="0" ts="1532951482187" s="true" lb="提交" rc="200" rm="OK" tn="运费到款核销 1-1" dt="text" by="1227" sby="358" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951482209" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="运费到款核销 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="66" it="0" lt="66" ct="0" ts="1532951482212" s="true" lb="弹窗确认" rc="200" rm="OK" tn="运费到款核销 1-1" dt="text" by="245" sby="445" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="210" it="149" lt="203" ct="0" ts="1532951481928" s="true" lb="运费到款核销查询" rc="200" rm="Number of samples in transaction : 7, number of failing samples : 0" tn="运费到款核销 1-1" dt="" by="40582" sby="1619" ng="1" na="1"/>
+
+</testResults>

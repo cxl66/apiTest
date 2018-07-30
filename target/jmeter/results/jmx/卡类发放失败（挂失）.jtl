@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="140" it="0" lt="139" ct="70" ts="1532951359889" s="true" lb="登录发站成功" rc="200" rm="OK" tn="发站登录 1-1" dt="text" by="528" sby="369" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951360070" s="true" lb="token，cid，oid，eid保存为全局变量" rc="200" rm="OK" tn="发站登录 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="269" it="0" lt="268" ct="29" ts="1532951360086" s="true" lb="开单成功" rc="200" rm="OK" tn="开单 2-1" dt="text" by="256" sby="1258" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="54" it="0" lt="53" ct="0" ts="1532951360374" s="true" lb="开单记录查询" rc="200" rm="OK" tn="开单 2-1" dt="text" by="4021" sby="539" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951360433" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="开单 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="128" it="0" lt="127" ct="18" ts="1532951360455" s="true" lb="配载发车" rc="200" rm="OK" tn="配载 3-1" dt="text" by="245" sby="549" ng="1" na="1"/>
+<httpSample t="37" it="0" lt="37" ct="0" ts="1532951360584" s="true" lb="获取批次id" rc="200" rm="OK" tn="配载 3-1" dt="text" by="1990" sby="381" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951360623" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="配载 3-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="41" it="0" lt="41" ct="14" ts="1532951360642" s="true" lb="到站登录" rc="200" rm="OK" tn="无账户到站登录 4-1" dt="text" by="527" sby="368" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951360685" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="无账户到站登录 4-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="343" it="0" lt="343" ct="10" ts="1532951360692" s="true" lb="挂失" rc="200" rm="OK" tn="挂失 5-1" dt="text" by="242" sby="503" ng="1" na="1"/>
+<httpSample t="139" it="0" lt="139" ct="10" ts="1532951361040" s="true" lb="到车" rc="200" rm="OK" tn="到车、签收 6-1" dt="text" by="245" sby="364" ng="1" na="1"/>
+<httpSample t="147" it="0" lt="147" ct="0" ts="1532951361182" s="true" lb="签收" rc="200" rm="OK" tn="到车、签收 6-1" dt="text" by="331" sby="510" ng="1" na="1"/>
+<httpSample t="92" it="0" lt="92" ct="18" ts="1532951361365" s="true" lb="查询货款上缴运单" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 7-1" dt="text" by="5558" sby="384" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="129" it="0" lt="129" ct="0" ts="1532951361463" s="true" lb="上缴货款" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 7-1" dt="text" by="1842" sby="419" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>缴款成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951361896" s="true" lb="获取缴款批次id" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 7-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="83" it="0" lt="83" ct="0" ts="1532951361897" s="true" lb="代收货款核销" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 7-1" dt="text" by="245" sby="453" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>核销成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="812" it="0" lt="811" ct="793" ts="1532951362075" s="true" lb="JDBC Request" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 7-1" dt="text" by="10" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>转账断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>转账</failureMessage>
+  </assertionResult>
+</sample>
+<sample t="10" it="0" lt="8" ct="0" ts="1532951362954" s="true" lb="JDBC Request" rc="200" rm="OK" tn="卡类发放失败（挂失） 8-1" dt="text" by="21" sby="0" ng="1" na="1"/>
+<httpSample t="43" it="0" lt="43" ct="9" ts="1532951362965" s="true" lb="发放失败" rc="200" rm="OK" tn="卡类发放失败（挂失） 8-1" dt="text" by="291" sby="594" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>核销失败</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="6" it="0" lt="6" ct="0" ts="1532951363069" s="true" lb="JDBC Request" rc="200" rm="OK" tn="解挂 9-1" dt="text" by="7" sby="0" ng="1" na="1"/>
+<httpSample t="84" it="0" lt="84" ct="8" ts="1532951363076" s="true" lb="解挂" rc="200" rm="OK" tn="解挂 9-1" dt="text" by="242" sby="393" ng="1" na="1"/>
+
+</testResults>

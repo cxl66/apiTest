@@ -1,0 +1,133 @@
+2018/07/30 19:50:55 INFO  - jmeter.util.JMeterUtils: Setting Locale to zh_CN 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: Loading system properties from: E:\apiTest\target\jmeter\bin\system.properties 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: java.version=1.8.0_144 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) Client VM 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: os.name=Windows 7 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: os.arch=x86 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: os.version=6.1 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: file.encoding=GBK 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: Max memory     =518979584 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: Available Processors =8 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: JMeter  Locale=中文 (中国) 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: JMeterHome=E:\apiTest\target\jmeter 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: user.dir  =E:\apiTest\target\jmeter\bin 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: PWD       =E:\apiTest\target\jmeter\bin 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: IP: 192.168.4.32 Name: MS-20180330SARF FullName: MS-20180330SARF 
+2018/07/30 19:50:55 INFO  - jmeter.services.FileServer: Default base='E:\apiTest\target\jmeter\bin' 
+2018/07/30 19:50:55 INFO  - jmeter.services.FileServer: Set new base='E:\apiTest\target\jmeter\testFiles\jmx' 
+2018/07/30 19:50:55 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2018/07/30 19:50:55 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2018/07/30 19:50:55 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.2 
+2018/07/30 19:50:55 WARN  - jmeter.save.SaveService: Bad _version - expected 3.1, found 3.2. 
+2018/07/30 19:50:55 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2018/07/30 19:50:55 INFO  - jmeter.save.SaveService: Loading file: E:\apiTest\target\jmeter\testFiles\jmx\换单货款发放成功.jmx 
+2018/07/30 19:50:55 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2018/07/30 19:50:55 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/30 19:50:55 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/30 19:50:55 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/30 19:50:55 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/07/30 19:50:55 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2018/07/30 19:50:55 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2018/07/30 19:50:55 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2018/07/30 19:50:55 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/07/30 19:50:55 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/30 19:50:55 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/07/30 19:50:55 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2018/07/30 19:50:55 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2018/07/30 19:50:56 ERROR - jmeter.protocol.jdbc.config.DataSourceElement: JDBC data source already defined for: Mysql 
+2018/07/30 19:50:56 INFO  - jmeter.JMeter: 正在运行的测试 (1532951456047) 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : 发站登录 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 发站登录. 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/30 19:50:56 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/30 19:50:56 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 发站登录 to finish before starting next group 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread started: 发站登录 1-1 
+2018/07/30 19:50:56 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = MS-20180330SARF 
+2018/07/30 19:50:56 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2018/07/30 19:50:56 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2018/07/30 19:50:56 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2018/07/30 19:50:56 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2018/07/30 19:50:56 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread is done: 发站登录 1-1 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread finished: 发站登录 1-1 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : 开单 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 开单. 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/30 19:50:56 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/30 19:50:56 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 开单 to finish before starting next group 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread started: 开单 2-1 
+2018/07/30 19:50:56 INFO  - jmeter.services.FileServer: Stored: ..\resources\orderData\到站为无账户.csv 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread is done: 开单 2-1 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread finished: 开单 2-1 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 3 : 配载 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 配载. 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/30 19:50:56 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 3 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/30 19:50:56 INFO  - jmeter.threads.ThreadGroup: Started thread group number 3 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 配载 to finish before starting next group 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread started: 配载 3-1 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread is done: 配载 3-1 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread finished: 配载 3-1 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 4 : 无账户到站登录 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 无账户到站登录. 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/30 19:50:56 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 4 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/30 19:50:56 INFO  - jmeter.threads.ThreadGroup: Started thread group number 4 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 无账户到站登录 to finish before starting next group 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread started: 无账户到站登录 4-1 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread is done: 无账户到站登录 4-1 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread finished: 无账户到站登录 4-1 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 5 : 到车、签收 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 到车、签收. 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/30 19:50:56 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 5 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/30 19:50:56 INFO  - jmeter.threads.ThreadGroup: Started thread group number 5 
+2018/07/30 19:50:56 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 到车、签收 to finish before starting next group 
+2018/07/30 19:50:56 INFO  - jmeter.threads.JMeterThread: Thread started: 到车、签收 5-1 
+2018/07/30 19:50:57 INFO  - jmeter.threads.JMeterThread: Thread is done: 到车、签收 5-1 
+2018/07/30 19:50:57 INFO  - jmeter.threads.JMeterThread: Thread finished: 到车、签收 5-1 
+2018/07/30 19:50:57 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 6 : 无账户代收货款上缴打款成功 
+2018/07/30 19:50:57 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 无账户代收货款上缴打款成功. 
+2018/07/30 19:50:57 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/30 19:50:57 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 6 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/30 19:50:57 INFO  - jmeter.threads.ThreadGroup: Started thread group number 6 
+2018/07/30 19:50:57 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 无账户代收货款上缴打款成功 to finish before starting next group 
+2018/07/30 19:50:57 INFO  - jmeter.threads.JMeterThread: Thread started: 无账户代收货款上缴打款成功 6-1 
+2018/07/30 19:50:57 INFO  - jmeter.util.BeanShellTestElement: 运单货款缴款后的状态：2 
+2018/07/30 19:50:57 INFO  - jmeter.util.BeanShellTestElement: 运单成功上缴货款，状态是已缴款但未到款！！！ 
+2018/07/30 19:50:57 INFO  - jmeter.util.BeanShellTestElement: 运单货款缴款后的状态：3 
+2018/07/30 19:50:57 INFO  - jmeter.util.BeanShellTestElement: 运单货款核销成功！！！ 
+2018/07/30 19:50:57 INFO  - jmeter.threads.JMeterThread: Thread is done: 无账户代收货款上缴打款成功 6-1 
+2018/07/30 19:50:57 INFO  - jmeter.threads.JMeterThread: Thread finished: 无账户代收货款上缴打款成功 6-1 
+2018/07/30 19:50:57 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 7 : 换单登记成功 
+2018/07/30 19:50:57 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 换单登记成功. 
+2018/07/30 19:50:57 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/30 19:50:57 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 7 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/30 19:50:57 INFO  - jmeter.threads.ThreadGroup: Started thread group number 7 
+2018/07/30 19:50:57 INFO  - jmeter.engine.StandardJMeterEngine: Waiting for thread group: 换单登记成功 to finish before starting next group 
+2018/07/30 19:50:57 INFO  - jmeter.threads.JMeterThread: Thread started: 换单登记成功 7-1 
+2018/07/30 19:50:58 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~SELECT paid_type from t_finance_fund where fee_type='4' and id='686990' 
+2018/07/30 19:50:58 INFO  - jmeter.util.BeanShellTestElement: 运单货款缴款后的状态：3 
+2018/07/30 19:50:58 INFO  - jmeter.util.BeanShellTestElement: 运单换单成功！！！ 
+2018/07/30 19:50:58 INFO  - jmeter.threads.JMeterThread: Thread is done: 换单登记成功 7-1 
+2018/07/30 19:50:58 INFO  - jmeter.threads.JMeterThread: Thread finished: 换单登记成功 7-1 
+2018/07/30 19:50:58 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 8 : 换单货款发放成功 
+2018/07/30 19:50:58 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group 换单货款发放成功. 
+2018/07/30 19:50:58 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/07/30 19:50:58 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 8 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/07/30 19:50:58 INFO  - jmeter.threads.ThreadGroup: Started thread group number 8 
+2018/07/30 19:50:58 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/07/30 19:50:58 INFO  - jmeter.threads.JMeterThread: Thread started: 换单货款发放成功 8-1 
+2018/07/30 19:50:58 INFO  - jmeter.util.BeanShellTestElement: ~~~~~~~~SELECT status from t_finance_fund where fee_type='4' and id='686990' 
+2018/07/30 19:50:58 INFO  - jmeter.util.BeanShellTestElement: 运单货款缴款后的状态：3 
+2018/07/30 19:50:58 INFO  - jmeter.util.BeanShellTestElement: 运单核销成功！！！ 
+2018/07/30 19:50:58 INFO  - jmeter.threads.JMeterThread: Thread is done: 换单货款发放成功 8-1 
+2018/07/30 19:50:58 INFO  - jmeter.threads.JMeterThread: Thread finished: 换单货款发放成功 8-1 
+2018/07/30 19:50:58 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/07/30 19:50:58 INFO  - jmeter.services.FileServer: Close: ..\resources\orderData\到站为无账户.csv 
+2018/07/30 19:50:58 INFO  - jmeter.reporters.Summariser: summary =     21 in 00:00:03 =    7.2/s Avg:   102 Min:     0 Max:   813 Err:     0 (0.00%) 

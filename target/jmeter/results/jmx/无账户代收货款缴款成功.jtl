@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="83" it="0" lt="83" ct="45" ts="1532951459961" s="true" lb="登录发站成功" rc="200" rm="OK" tn="发站登录 1-1" dt="text" by="528" sby="369" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951460083" s="true" lb="token，cid，oid，eid保存为全局变量" rc="200" rm="OK" tn="发站登录 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="251" it="0" lt="251" ct="11" ts="1532951460143" s="true" lb="开单成功" rc="200" rm="OK" tn="开单 2-1" dt="text" by="256" sby="1257" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="0" ts="1532951460414" s="true" lb="开单记录查询" rc="200" rm="OK" tn="开单 2-1" dt="text" by="3991" sby="539" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951460464" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="开单 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="97" it="0" lt="96" ct="10" ts="1532951460485" s="true" lb="配载发车" rc="200" rm="OK" tn="配载 3-1" dt="text" by="245" sby="549" ng="1" na="1"/>
+<httpSample t="35" it="0" lt="34" ct="0" ts="1532951460583" s="true" lb="获取批次id" rc="200" rm="OK" tn="配载 3-1" dt="text" by="1990" sby="381" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1532951460619" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="配载 3-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="36" it="0" lt="35" ct="9" ts="1532951460640" s="true" lb="到站登录" rc="200" rm="OK" tn="无账户到站登录 4-1" dt="text" by="527" sby="368" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951460678" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="无账户到站登录 4-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="131" it="0" lt="131" ct="9" ts="1532951460684" s="true" lb="到车" rc="200" rm="OK" tn="到车、签收 5-1" dt="text" by="245" sby="364" ng="1" na="1"/>
+<httpSample t="172" it="0" lt="172" ct="0" ts="1532951460817" s="true" lb="签收" rc="200" rm="OK" tn="到车、签收 5-1" dt="text" by="331" sby="510" ng="1" na="1"/>
+<httpSample t="61" it="0" lt="61" ct="6" ts="1532951461023" s="true" lb="查询货款上缴运单" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 6-1" dt="text" by="5521" sby="384" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="83" it="0" lt="83" ct="0" ts="1532951461089" s="true" lb="上缴货款" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 6-1" dt="text" by="1842" sby="419" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>缴款成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951461511" s="true" lb="获取缴款批次id" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 6-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+
+</testResults>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="93" it="0" lt="93" ct="49" ts="1532951465277" s="true" lb="登录发站成功" rc="200" rm="OK" tn="发站登录 1-1" dt="text" by="528" sby="369" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951465409" s="true" lb="token，cid，oid，eid保存为全局变量" rc="200" rm="OK" tn="发站登录 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="232" it="0" lt="232" ct="11" ts="1532951465425" s="true" lb="开单成功" rc="200" rm="OK" tn="开单 2-1" dt="text" by="256" sby="1257" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="41" it="0" lt="41" ct="0" ts="1532951465668" s="true" lb="开单记录查询" rc="200" rm="OK" tn="开单 2-1" dt="text" by="3991" sby="539" ng="1" na="1"/>
+<sample t="0" it="0" lt="0" ct="0" ts="1532951465712" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="开单 2-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="103" it="0" lt="103" ct="12" ts="1532951465722" s="true" lb="配载发车" rc="200" rm="OK" tn="配载 3-1" dt="text" by="245" sby="549" ng="1" na="1"/>
+<httpSample t="28" it="0" lt="27" ct="0" ts="1532951465827" s="true" lb="获取批次id" rc="200" rm="OK" tn="配载 3-1" dt="text" by="1990" sby="381" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951465856" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="配载 3-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="38" ct="11" ts="1532951465876" s="true" lb="到站登录" rc="200" rm="OK" tn="无账户到站登录 4-1" dt="text" by="527" sby="368" ng="1" na="1"/>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951465916" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="无账户到站登录 4-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="317" it="0" lt="316" ct="7" ts="1532951465920" s="true" lb="挂失" rc="200" rm="OK" tn="挂失 5-1" dt="text" by="242" sby="503" ng="1" na="1"/>
+<httpSample t="132" it="0" lt="132" ct="10" ts="1532951466239" s="true" lb="到车" rc="200" rm="OK" tn="到车、签收 6-1" dt="text" by="245" sby="364" ng="1" na="1"/>
+<httpSample t="155" it="0" lt="155" ct="0" ts="1532951466374" s="true" lb="签收" rc="200" rm="OK" tn="到车、签收 6-1" dt="text" by="331" sby="510" ng="1" na="1"/>
+<httpSample t="66" it="0" lt="66" ct="8" ts="1532951466573" s="true" lb="查询货款上缴运单" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 7-1" dt="text" by="5528" sby="384" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="131" it="0" lt="131" ct="0" ts="1532951466644" s="true" lb="上缴货款" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 7-1" dt="text" by="1842" sby="419" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>缴款成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951467053" s="true" lb="获取缴款批次id" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 7-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="92" it="0" lt="92" ct="0" ts="1532951467054" s="true" lb="代收货款核销" rc="200" rm="OK" tn="无账户代收货款上缴打款成功 7-1" dt="text" by="245" sby="453" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>核销成功</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="739" it="0" lt="738" ct="723" ts="1532951467253" s="true" lb="JDBC Request" rc="200" rm="OK" tn="现金发放失败 8-1" dt="text" by="21" sby="0" ng="1" na="1"/>
+<httpSample t="28" it="0" lt="28" ct="5" ts="1532951467993" s="true" lb="发放失败（挂失）" rc="200" rm="OK" tn="现金发放失败 8-1" dt="text" by="291" sby="590" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="13" it="0" lt="13" ct="0" ts="1532951468024" s="true" lb="JDBC Request" rc="200" rm="OK" tn="解挂 9-1" dt="text" by="7" sby="0" ng="1" na="1"/>
+<httpSample t="79" it="0" lt="79" ct="6" ts="1532951468037" s="true" lb="解挂" rc="200" rm="OK" tn="解挂 9-1" dt="text" by="242" sby="393" ng="1" na="1"/>
+
+</testResults>

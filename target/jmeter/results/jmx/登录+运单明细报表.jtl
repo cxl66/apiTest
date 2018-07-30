@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="91" it="0" lt="91" ct="45" ts="1532951480177" s="true" lb="HTTP请求" rc="200" rm="OK" tn="登录 1-1" dt="text" by="526" sby="428" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1532951480317" s="true" lb="BeanShell Sampler" rc="200" rm="OK" tn="登录 1-1" dt="text" by="0" sby="0" ng="1" na="1"/>
+<httpSample t="66" it="0" lt="54" ct="6" ts="1532951480325" s="true" lb="HTTP请求" rc="200" rm="OK" tn="报表 2-1" dt="text" by="49204" sby="861" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="418" it="0" lt="418" ct="0" ts="1532951480419" s="true" lb="HTTP请求" rc="200" rm="OK" tn="报表 2-1" dt="text" by="974" sby="868" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>返回数据正确</failureMessage>
+  </assertionResult>
+</httpSample>
+
+</testResults>
