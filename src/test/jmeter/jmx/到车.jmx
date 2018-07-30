@@ -58,7 +58,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="nbbl" elementType="Argument">
             <stringProp name="Argument.name">nbbl</stringProp>
-            <stringProp name="Argument.value">nbbl01</stringProp>
+            <stringProp name="Argument.value">&quot;id&quot;=1</stringProp>
             <stringProp name="Argument.desc">宁波北仑</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -136,13 +136,11 @@ String nbbl_password=new GetFileData().readTxtData(filePath,2,5);
 //获取杭州象山账号
 String hzxs_username=new GetFileData().readTxtData(filePath,3,4);
 String hzxs_password=new GetFileData().readTxtData(filePath,3,5);
-
 vars.put(&quot;nbbl_username&quot;,nbbl_username);
 vars.put(&quot;nbbl_password&quot;,nbbl_password);
 vars.put(&quot;hzxs_username&quot;,hzxs_username);
 vars.put(&quot;hzxs_password&quot;,hzxs_password);
-
-//return nbbl_username;</stringProp>
+</stringProp>
           <stringProp name="BeanShellSampler.filename"></stringProp>
           <stringProp name="BeanShellSampler.parameters"></stringProp>
           <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
@@ -152,7 +150,7 @@ vars.put(&quot;hzxs_password&quot;,hzxs_password);
           <stringProp name="WhileController.condition">${__jexl3(&quot;${dcpzId}&quot; != &quot;&lt;EOF&gt;&quot;)}</stringProp>
         </WhileController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="登录-宁波北仑-${nbbl_username}" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="登录-宁波北仑" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
