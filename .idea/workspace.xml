@@ -2,27 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcbcdde1-d728-48bf-9755-3744289881ad" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apiTest-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/apiTest-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/testFiles/jmx/签收明细查询Api.jmx" afterPath="$PROJECT_DIR$/target/jmeter/testFiles/jmx/签收明细查询Api.jmx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/khy/GetFileData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/换单货款发放成功.jtl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/开单Api.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/开单Api.jtl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/config.json" afterPath="$PROJECT_DIR$/target/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/BeanShellAssertion.bshrc" afterPath="$PROJECT_DIR$/target/jmeter/bin/BeanShellAssertion.bshrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/BeanShellFunction.bshrc" afterPath="$PROJECT_DIR$/target/jmeter/bin/BeanShellFunction.bshrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/BeanShellListeners.bshrc" afterPath="$PROJECT_DIR$/target/jmeter/bin/BeanShellListeners.bshrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/BeanShellSampler.bshrc" afterPath="$PROJECT_DIR$/target/jmeter/bin/BeanShellSampler.bshrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/hc.parameters" afterPath="$PROJECT_DIR$/target/jmeter/bin/hc.parameters" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/httpclient.parameters" afterPath="$PROJECT_DIR$/target/jmeter/bin/httpclient.parameters" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/jaas.conf" afterPath="$PROJECT_DIR$/target/jmeter/bin/jaas.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apiTest.iml" afterPath="$PROJECT_DIR$/apiTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/jmeter/jmx/到车.jmx" afterPath="$PROJECT_DIR$/src/test/jmeter/jmx/到车.jmx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/jmeter.properties" afterPath="$PROJECT_DIR$/target/jmeter/bin/jmeter.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/krb5.conf" afterPath="$PROJECT_DIR$/target/jmeter/bin/krb5.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/log4j.conf" afterPath="$PROJECT_DIR$/target/jmeter/bin/log4j.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/saveservice.properties" afterPath="$PROJECT_DIR$/target/jmeter/bin/saveservice.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/system.properties" afterPath="$PROJECT_DIR$/target/jmeter/bin/system.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/bin/upgrade.properties" afterPath="$PROJECT_DIR$/target/jmeter/bin/upgrade.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/代收货款查询.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/代收货款查询.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/修改配载保存.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/修改配载保存.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/修改配载保存并发车.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/修改配载保存并发车.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/到车.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/到车.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/卡类发放失败（挂失）.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/卡类发放失败（挂失）.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/卡类发放成功.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/卡类发放成功.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/发车.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/发车.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/取消到车.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/取消到车.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/取消发车.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/取消发车.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/取消配载.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/取消配载.jmx.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/开单Api.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/开单Api.jmx.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/签收Api .jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/签收Api .jmx.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/开单Api.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/开单Api.jtl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/签收Api .jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/签收Api .jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/换单登记失败（挂失）.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/换单登记失败（挂失）.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/换单登记成功.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/换单登记成功.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/logs/换单货款发放成功.jmx.log" afterPath="$PROJECT_DIR$/target/jmeter/logs/换单货款发放成功.jmx.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/代收货款查询.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/代收货款查询.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/修改配载保存.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/修改配载保存.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/修改配载保存并发车.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/修改配载保存并发车.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/到车.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/到车.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/卡类发放失败（挂失）.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/卡类发放失败（挂失）.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/卡类发放成功.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/卡类发放成功.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/发车.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/发车.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/取消到车.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/取消到车.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/取消发车.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/取消发车.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/取消配载.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/取消配载.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/换单登记失败（挂失）.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/换单登记失败（挂失）.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/results/jmx/换单登记成功.jtl" afterPath="$PROJECT_DIR$/target/jmeter/results/jmx/换单登记成功.jtl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jmeter/testFiles/jmx/到车.jmx" afterPath="$PROJECT_DIR$/target/jmeter/testFiles/jmx/到车.jmx" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,12 +52,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="到车.jmx.log" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/jmeter/logs/到车.jmx.log">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="83" column="75" lean-forward="false" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
+            <state relative-caret-position="154">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -59,6 +77,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/target/jmeter/logs/到车.jmx.log" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -90,9 +109,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -101,16 +119,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="apiTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -125,47 +133,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jmeter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jmeter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -183,26 +151,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apiTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -679,15 +634,16 @@
       <workItem from="1530007123669" duration="541000" />
       <workItem from="1530008254962" duration="1082000" />
       <workItem from="1531980625428" duration="200000" />
-      <workItem from="1532951214358" duration="542000" />
+      <workItem from="1532951214358" duration="1122000" />
+      <workItem from="1533003033186" duration="4132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2365000" />
+    <option name="totallyTimeSpent" value="7077000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -698,7 +654,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10052219" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58093995" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -736,18 +692,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/target/jmeter/logs/到车.jmx.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apiTest.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,8 +761,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/jmeter/logs/到车.jmx.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
+        <state relative-caret-position="700">
           <caret line="83" column="75" lean-forward="false" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/khy/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/khy/GetFileData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding />
         </state>
       </provider>
