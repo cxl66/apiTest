@@ -8,11 +8,11 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
-      <stringProp name="TestPlan.user_define_classpath">C:\Jmeter\apache-jmeter-3.3\bin\mysql-connector-java-8.0.7-dmr-bin.jar,C:\Jmeter\apache-jmeter-3.3\bin\ApacheJMeter.jar</stringProp>
+      <stringProp name="TestPlan.user_define_classpath">C:\Jmeter\apache-jmeter-3.3\bin\mysql-connector-java-8.0.7-dmr-bin.jar,C:\Jmeter\apache-jmeter-3.3\bin\ApacheJMeter.jar,C:\Jmeter\apache-jmeter-3.3\lib\ext\khy.jar</stringProp>
     </TestPlan>
     <hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="获取配置文件" enabled="true">
-        <stringProp name="filename">F:\apiTest\src\test\jmeter\resources\配置文件.txt</stringProp>
+        <stringProp name="filename">..\resources\配置文件.txt</stringProp>
         <stringProp name="fileEncoding">utf-8</stringProp>
         <stringProp name="variableNames">serverUrl,sqlCheck,filePath</stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -209,18 +209,156 @@ else{
             </JSONPostProcessor>
             <hashTree/>
           </hashTree>
-          <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="true">
-            <stringProp name="TestPlan.comments">保存全局变量</stringProp>
-            <stringProp name="BeanShellSampler.query">${__setProperty(tokenValue,${token})} 
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP请求" enabled="false">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">service=employee.loginAuth&amp;params={&quot;terminalType&quot;:1,&quot;username&quot;:&quot;${ssm_username}&quot;,&quot;password&quot;:&quot;${ssm_password}&quot;}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${serverUrl}</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/ktms/service/call</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">token;oid;cid;eid</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.data.token;$.data.oid;$.data.cid;$.data.eid</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+              <stringProp name="JSONPostProcessor.defaultValues">null;null;null;null</stringProp>
+              <boolProp name="JSONPostProcessor.compute_concat">true</boolProp>
+              <stringProp name="TestPlan.comments">表达式中的data.token是层级关系，在data下面的token</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell断言" enabled="true">
+              <stringProp name="BeanShellAssertion.query">
+String token = vars.get(&quot;token&quot;);
+log.info(&quot;获取到token:&quot;+token);
+
+String oid = vars.get(&quot;oid&quot;);
+log.info(&quot;获取到oid:&quot;+oid);
+
+String cid = vars.get(&quot;cid&quot;);
+log.info(&quot;获取到cid:&quot;+cid);
+
+String eid = vars.get(&quot;eid&quot;);
+log.info(&quot;获取到eid:&quot;+eid);
+
+
+if(token.isEmpty()){
+	Failure =true;
+	FailureMessage =&quot;返回数据错误&quot;;
+}
+else{
+	Failure =false;
+	FailureMessage =&quot;返回数据正确&quot;;
+}
+
+</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+            <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="察看结果树" enabled="true">
+              <boolProp name="ResultCollector.error_logging">false</boolProp>
+              <objProp>
+                <name>saveConfig</name>
+                <value class="SampleSaveConfiguration">
+                  <time>true</time>
+                  <latency>true</latency>
+                  <timestamp>true</timestamp>
+                  <success>true</success>
+                  <label>true</label>
+                  <code>true</code>
+                  <message>true</message>
+                  <threadName>true</threadName>
+                  <dataType>true</dataType>
+                  <encoding>false</encoding>
+                  <assertions>true</assertions>
+                  <subresults>true</subresults>
+                  <responseData>false</responseData>
+                  <samplerData>false</samplerData>
+                  <xml>false</xml>
+                  <fieldNames>true</fieldNames>
+                  <responseHeaders>false</responseHeaders>
+                  <requestHeaders>false</requestHeaders>
+                  <responseDataOnError>false</responseDataOnError>
+                  <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                  <assertionsResultsToSave>0</assertionsResultsToSave>
+                  <bytes>true</bytes>
+                  <sentBytes>true</sentBytes>
+                  <threadCounts>true</threadCounts>
+                  <idleTime>true</idleTime>
+                  <connectTime>true</connectTime>
+                </value>
+              </objProp>
+              <stringProp name="filename"></stringProp>
+            </ResultCollector>
+            <hashTree/>
+            <ResultCollector guiclass="AssertionVisualizer" testclass="ResultCollector" testname="断言结果" enabled="true">
+              <boolProp name="ResultCollector.error_logging">false</boolProp>
+              <objProp>
+                <name>saveConfig</name>
+                <value class="SampleSaveConfiguration">
+                  <time>true</time>
+                  <latency>true</latency>
+                  <timestamp>true</timestamp>
+                  <success>true</success>
+                  <label>true</label>
+                  <code>true</code>
+                  <message>true</message>
+                  <threadName>true</threadName>
+                  <dataType>true</dataType>
+                  <encoding>false</encoding>
+                  <assertions>true</assertions>
+                  <subresults>true</subresults>
+                  <responseData>false</responseData>
+                  <samplerData>false</samplerData>
+                  <xml>false</xml>
+                  <fieldNames>true</fieldNames>
+                  <responseHeaders>false</responseHeaders>
+                  <requestHeaders>false</requestHeaders>
+                  <responseDataOnError>false</responseDataOnError>
+                  <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                  <assertionsResultsToSave>0</assertionsResultsToSave>
+                  <bytes>true</bytes>
+                  <sentBytes>true</sentBytes>
+                  <threadCounts>true</threadCounts>
+                  <idleTime>true</idleTime>
+                  <connectTime>true</connectTime>
+                </value>
+              </objProp>
+              <stringProp name="filename"></stringProp>
+            </ResultCollector>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="true">
+          <stringProp name="TestPlan.comments">保存全局变量</stringProp>
+          <stringProp name="BeanShellSampler.query">${__setProperty(tokenValue,${token})} 
 ${__setProperty(oid,${oid})} 
 ${__setProperty(cid,${cid})} 
 ${__setProperty(eid,${eid})} </stringProp>
-            <stringProp name="BeanShellSampler.filename"></stringProp>
-            <stringProp name="BeanShellSampler.parameters"></stringProp>
-            <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
-          </BeanShellSampler>
-          <hashTree/>
-        </hashTree>
+          <stringProp name="BeanShellSampler.filename"></stringProp>
+          <stringProp name="BeanShellSampler.parameters"></stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="开单" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
           <stringProp name="LoopController.loops">5</stringProp>
@@ -457,13 +595,13 @@ import java.util.*;
 import java.lang.*;
 import org.apache.regexp.*;
 
-
+log.info(&quot;回单缴款查询--数据库校验----&quot;);
 //校验数据库
 String driver=&quot;com.mysql.jdbc.Driver&quot;;
 String url=&quot;jdbc:mysql://test.kuaihuoyun.com/kd_caesar_109?useUnicode=true&amp;characterEncoding=utf-8&quot;;
 String username=&quot;root&quot;;
 String password=&quot;pass321&quot;;
-String querySql=&quot;SELECT * from t_finance_fund where (payment_type=&apos;3&apos; or payment_type=&apos;4&apos;) and  status=&apos;1&apos; and apply_station_id=&apos;&quot;+&quot;${__P(oid)}&quot;+&quot;&apos;&quot;;
+String querySql=&quot;SELECT * from t_finance_fund where (payment_type=&apos;3&apos; or payment_type=&apos;4&apos;) and canceled=0 and updated&gt;=DATE_SUB(CURRENT_DATE,INTERVAL 60 day)  and  status=&apos;1&apos; and apply_station_id=&apos;&quot;+&quot;${__P(oid)}&quot;+&quot;&apos;&quot;;
 Connection conn =null;
 Class.forName(driver);
 conn = (Connection)DriverManager.getConnection(url,username,password);
@@ -804,7 +942,8 @@ if(!conn.isClosed()){
 }else{
 	Failure=true;
 	FailureMessage =&quot;连接数据库失败或者数据库内内有历史数据!&quot;;
-}</stringProp>
+}
+</stringProp>
                 <stringProp name="BeanShellSampler.filename"></stringProp>
                 <stringProp name="BeanShellSampler.parameters"></stringProp>
                 <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
@@ -874,7 +1013,7 @@ import org.apache.regexp.*;
 
 //查询时候获取到的第一个运单财务表中t_finance_fund的id
 String itemsId = &quot;${__P(id)}&quot;;
-log.info(&quot;回单回单运费缴款---------确认获取-查询时候获取到的第一个运单财务表中的id-itemsId：&quot;+itemsId);
+log.info(&quot;回单运费缴款后确认---数据库校验------确认获取-查询时候获取到的第一个运单财务表中的id-itemsId：&quot;+itemsId);
 
 //校验数据库中运单缴款状态,回单类型在数据库中对应的是1，在代码中传的是8----数据库校验
 String driver=&quot;com.mysql.jdbc.Driver&quot;;
