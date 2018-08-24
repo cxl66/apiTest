@@ -1097,13 +1097,13 @@ import org.apache.regexp.*;
 
 //返回数据校验
 String status = vars.get(&quot;status&quot;);
-log.info(&quot;回单回单核销编号查询status：&quot;+status);
+log.info(&quot;回单缴款编号查询status：&quot;+status);
 
 String total = vars.get(&quot;total&quot;);
-log.info(&quot;回单回单核销编号查询total：&quot;+total);
+log.info(&quot;回单缴款编号查询total：&quot;+total);
 
 String number = vars.get(&quot;hid&quot;);//得到核销后的t_finance_fund表中的id，不是核销id
-log.info(&quot;回单回单核销编号中查询运单number：&quot;+number);
+log.info(&quot;回单缴款编号中查询运单number：&quot;+number);
 
 /*
 String numberId = &quot;${__P(hxid)}&quot;;
@@ -1116,7 +1116,7 @@ log.info(&quot;回单回单运费缴款-确认获取-查询时候获取到的第
 if(status.equals(&quot;200&quot;) &amp;&amp; (number).equals(itemsNumber) ){
 	Failure =false;
 	FailureMessage =&quot;回单回单返回数据正确&quot;;
-	log.info(&quot;回单回单上缴前查询到的运单：&quot;+itemsNumber+&quot;,核销编号中查询运单号number：&quot;+number+&quot;确认运单被上缴，成功！&quot;);	
+	log.info(&quot;回单回单上缴前查询到的运单：&quot;+itemsNumber+&quot;,缴款编号中查询运单号number：&quot;+number+&quot;确认运单被上缴，成功！&quot;);	
 }
 else{
 	Failure =true;
